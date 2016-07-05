@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <Forms>
+    <MainWindow Class="TCEForm" Encoding="Ascii85">jg]x8)=A%7$95Cn8q{(^!2(6(#15g-,k#!:G[*cmftX%a)IlQG);gPjXOcGW!2[@GJPJ{+EO-edHtZSS9Wrg%+q#}tobQZ)_Nf![.C5SEy6YUaXgIM;ASP#,c:TqajV](=RH^b@kH%b@DVj=I@]dfyJwDcsRNa9A$COkzPG-)[y$Lz2JJk2lkkfG0?i8Jif7VXM+_SfY:n[tSenJTrck7lniJT+ZT5n8mj*?D_bpwXF!T5oH1LsUX#S9O8WCB}jz76R#XwX{]xO_-u^^k7YnGiooi9abhakVqJ5{1pSf4}Cd2gPnt!e1q.;TjzHL$Mgm8HNi7ozO#{3V/PK,Hin.BRwY@s+z%-Ph+O.ghJiSAu8wfQ^;x.tk@gj8WOc[soL)c,J![ddaZ^Z:6Z5U$:,mI((y/+p%?/#@g6[!o27s(F1qDaWot:oTdKD8pqf(sEhXKNCUw*KFY}1O-RJYiv,hXgx(;X%q(}p3D]ny]rvKRgT]5x[VbUI8,LJM9-#]lWqFi8I$^s7QeW}1=MD9W([fNt-SwihAkVIU$x3Ko5BHv^ql_lrVLZva}oRUh9!.mNK.78WL*Mv3wTS/cr@I,?o=e!+xBSIO,L#B6#Xa(P--Dc5JpW[J%OI2JpGqa2I;$,O;,synrxu50GU_x6Hz4wJtZG=EA4zBtGdW%?8I03MtH-.G)Ev{aIt#p,5nfJ82pTIiiXp,K!@$zKws5c7(XAH;+;1#{QvUn1Ck$I^9qzTh6e)j!w={{3C!YM.VxF8z#rzAd=N/iweBXwynyI4Jrf[f^2lfuekVy:G}(6TPI#QzLujE2]?-@]:N;4DgY8A[bSnbXFiQ#+Gmo,w1C+$+lGsNASVYN7_wA=EXVq#qI{Ztx7[m}a%%ps!kjG,DE!fd?J2ivwI0FDELrbfr^uqOSh{</MainWindow>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>14</ID>
+      <Description>"P1"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>165</ID>
+          <Description>"Active Player"</Description>
+          <LastState Value="8C268340" Activated="0" RealAddress="2C1F9CD0"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2C1F9CD0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>166</ID>
+          <Description>"Char 1"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>199</ID>
+              <Description>"Active?"</Description>
+              <LastState Value="1" Activated="0" RealAddress="2C268340"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>2C268340</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>171</ID>
+              <Description>"Visible?"</Description>
+              <LastState Value="1" Activated="0" RealAddress="2C26846C"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>2C26846C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>0</ID>
+              <Description>"Life"</Description>
+              <LastState Value="144" Activated="0" RealAddress="2C268760"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>2C268760</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>1</ID>
+              <Description>"Life Recover"</Description>
+              <LastState Value="144" Activated="0" RealAddress="2C268764"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>2C268764</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>10</ID>
+              <Description>"Pos X"</Description>
+              <LastState Value="693.3331299" Activated="0" RealAddress="2C268374"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268374</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>9</ID>
+              <Description>"Pos Y"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C268378"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268378</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>12</ID>
+              <Description>"Vel X"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C26839C"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C26839C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>11</ID>
+              <Description>"Vel Y"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C2683A0"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C2683A0</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>3</ID>
+              <Description>"Frame Val"</Description>
+              <LastState Value="0C52C914" Activated="0" RealAddress="2C268494"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>2C268494</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>45</ID>
+              <Description>"P1 Animation Pointer"</Description>
+              <LastState Value="00000000" Activated="0" RealAddress="2C52C120"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>4 Bytes</VariableType>
+              <Address>2C2684A8</Address>
+              <Offsets>
+                <Offset>20000000</Offset>
+              </Offsets>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>15</ID>
+              <Description>"Hitboxes"</Description>
+              <Options moHideChildren="1"/>
+              <LastState Value="" Activated="0" RealAddress="00000000"/>
+              <Color>80000008</Color>
+              <GroupHeader>1</GroupHeader>
+              <CheatEntries>
+                <CheatEntry>
+                  <ID>22</ID>
+                  <Description>"Hitbox Table"</Description>
+                  <LastState Value="0C532740" Activated="0" RealAddress="2C2684B0"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>2C2684B0</Address>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>2</ID>
+                  <Description>"Hitbox Choice Ptr"</Description>
+                  <LastState Value="0C532010" Activated="0" RealAddress="2C268500"/>
+                  <ShowAsHex>1</ShowAsHex>
+                  <Color>80000008</Color>
+                  <VariableType>4 Bytes</VariableType>
+                  <Address>2C268500</Address>
+                  <CheatEntries>
+                    <CheatEntry>
+                      <ID>5</ID>
+                      <Description>"Table Start"</Description>
+                      <LastState Value="0C532000" Activated="0" RealAddress="2C2684AC"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <Color>80000008</Color>
+                      <VariableType>4 Bytes</VariableType>
+                      <Address>2C2684AC</Address>
+                    </CheatEntry>
+                    <CheatEntry>
+                      <ID>49</ID>
+                      <Description>"Hitbox Data"</Description>
+                      <LastState Value="00030002000180F0" Activated="0" RealAddress="2C532012"/>
+                      <ShowAsHex>1</ShowAsHex>
+                      <Color>80000008</Color>
+                      <VariableType>8 Bytes</VariableType>
+                      <Address>2C2684AC</Address>
+                      <Offsets>
+                        <Offset>20000012</Offset>
+                      </Offsets>
+                    </CheatEntry>
+                  </CheatEntries>
+                </CheatEntry>
+                <CheatEntry>
+                  <ID>48</ID>
+                  <Description>"Hitbox Offset"</Description>
+                  <LastState Value="1" Activated="0" RealAddress="2C52C926"/>
+                  <Color>80000008</Color>
+                  <VariableType>2 Bytes</VariableType>
+                  <Address>2C268494</Address>
+                  <Offsets>
+                    <Offset>20000012</Offset>
+                  </Offsets>
+                </CheatEntry>
+              </CheatEntries>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>167</ID>
+          <Description>"Char 2"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>193</ID>
+              <Description>"Pos X"</Description>
+              <LastState Value="-1386.666626" Activated="0" RealAddress="2C268EBC"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268EBC</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>13</ID>
+              <Description>"Vel X"</Description>
+              <LastState Value="-16.66666603" Activated="0" RealAddress="2C268EE4"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268EE4</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>21</ID>
+              <Description>"Vel Y"</Description>
+              <LastState Value="-15.80357552" Activated="0" RealAddress="2C268EE8"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268EE8</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>194</ID>
+              <Description>"Captain America Shield Pos X"</Description>
+              <LastState Value="1249.999756" Activated="0" RealAddress="2C26AFF8"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C26AFF8</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>168</ID>
+          <Description>"Char 3"</Description>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>164</ID>
+              <Description>"P1 Char 3 Vel X"</Description>
+              <LastState Value="-16.66666603" Activated="0" RealAddress="2C269A2C"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C269A2C</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>4</ID>
+          <Description>"Attack Pointer"</Description>
+          <LastState Value="0C533598" Activated="0" RealAddress="2C268AA0"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2C268AA0</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>16</ID>
+      <Description>"P2"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>169</ID>
+          <Description>"Active Player"</Description>
+          <LastState Value="8C2688E4" Activated="0" RealAddress="2C1F9CD4"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>2C1F9CD4</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>170</ID>
+          <Description>"Char 1"</Description>
+          <Options moHideChildren="1"/>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>19</ID>
+              <Description>"Pos X"</Description>
+              <LastState Value="1244.999756" Activated="0" RealAddress="2C268918"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268918</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>20</ID>
+              <Description>"Pos Y"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C26891C"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C26891C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>17</ID>
+              <Description>"Vel X"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C268940"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268940</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>18</ID>
+              <Description>"Vel Y"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C268944"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C268944</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Frames Drawn (total)"</Description>
+      <LastState Value="7778677" Activated="0" RealAddress="2C3496B0"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>2C3496B0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>192</ID>
+      <Description>"Frames Drawn"</Description>
+      <LastState Value="212306" Activated="0" RealAddress="2C1F9D80"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>2C1F9D80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>7</ID>
+      <Description>"No description"</Description>
+      <LastState Value="1" Activated="0" RealAddress="2C268344"/>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>2C268344</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"No description"</Description>
+      <LastState Value="000AFF980019FFFC" Activated="0" RealAddress="2C532748"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>2C2684B0</Address>
+      <Offsets>
+        <Offset>20000008</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Anim shit"</Description>
+      <LastState Value="002E000400000001" Activated="0" RealAddress="2C52C926"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>2C268494</Address>
+      <Offsets>
+        <Offset>20000012</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"Pause Emulation"</Description>
+      <LastState Value="" Activated="0" RealAddress="04D00007"/>
+      <Color>80000008</Color>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>1</BitLength>
+      <ShowAsBinary>1</ShowAsBinary>
+      <Address>04D00007</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"Projectile"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>155</ID>
+          <Description>"No description"</Description>
+          <LastState Value="60" Activated="0" RealAddress="2C272228"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C272228</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>73</ID>
+          <Description>"Proj 1 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C2723F8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2723F8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>132</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1247.92395" Activated="0" RealAddress="2C2725C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2725C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>135</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C272968"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C272968</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>92</ID>
+          <Description>"Proj 2 Pos X"</Description>
+          <LastState Value="-186" Activated="0" RealAddress="2C273278"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C273278</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>127</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C273448"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C273448</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>136</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C273618"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C273618</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>74</ID>
+          <Description>"Proj 3 Pos X"</Description>
+          <LastState Value="1187.958984" Activated="0" RealAddress="2C273F28"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C273F28</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>75</ID>
+          <Description>"Proj 4 Pos X"</Description>
+          <LastState Value="897" Activated="0" RealAddress="2C2742C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2742C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>93</ID>
+          <Description>"Proj 5 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C274838"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C274838</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>143</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1312.994507" Activated="0" RealAddress="2C274A08"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C274A08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>76</ID>
+          <Description>"Proj 6 Pos X"</Description>
+          <LastState Value="693.3331299" Activated="0" RealAddress="2C275A58"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C275A58</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>112</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1247.92395" Activated="0" RealAddress="2C2725C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2725C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>77</ID>
+          <Description>"Proj 7 Pos X"</Description>
+          <LastState Value="1182.227051" Activated="0" RealAddress="2C272D08"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C272D08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>113</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1345.951904" Activated="0" RealAddress="2C273B88"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C273B88</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>128</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C274BD8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C274BD8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>114</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C274DA8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C274DA8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>129</ID>
+          <Description>"No description"</Description>
+          <LastState Value="2371" Activated="0" RealAddress="2C275148"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C275148</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>96</ID>
+          <Description>"No description"</Description>
+          <LastState Value="60" Activated="0" RealAddress="2C275318"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C275318</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>95</ID>
+          <Description>"Proj 8 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C275888"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C275888</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>115</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1255.440918" Activated="0" RealAddress="2C275FC8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C275FC8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>97</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C276368"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C276368</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>130</ID>
+          <Description>"No description"</Description>
+          <LastState Value="810.2485352" Activated="0" RealAddress="2C276C78"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C276C78</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>144</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1215.284912" Activated="0" RealAddress="2C276E48"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C276E48</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>99</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C2771E8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2771E8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>116</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C2773B8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2773B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>98</ID>
+          <Description>"No description"</Description>
+          <LastState Value="576.4177246" Activated="0" RealAddress="2C277928"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C277928</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>91</ID>
+          <Description>"No description"</Description>
+          <LastState Value="-1444" Activated="0" RealAddress="2C277AF8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C277AF8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>78</ID>
+          <Description>"Proj 6 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C277CC8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C277CC8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>145</ID>
+          <Description>"No description"</Description>
+          <LastState Value="60" Activated="0" RealAddress="2C277E98"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C277E98</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>60</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C278238"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C278238</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>100</ID>
+          <Description>"No description"</Description>
+          <LastState Value="901" Activated="0" RealAddress="2C278EE8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C278EE8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>131</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C279628"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C279628</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>137</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C279F38"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C279F38</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>79</ID>
+          <Description>"Proj 7 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27A108"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27A108</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>146</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27A2D8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27A2D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>82</ID>
+          <Description>"Proj 10 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27A848"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27A848</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>80</ID>
+          <Description>"Proj 8 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27ABE8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27ABE8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>81</ID>
+          <Description>"Proj 9 Pos X"</Description>
+          <LastState Value="1274.398682" Activated="0" RealAddress="2C27ADB8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27ADB8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>148</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27B158"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27B158</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"No description"</Description>
+          <LastState Value="60" Activated="0" RealAddress="2C27B328"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27B328</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>117</ID>
+          <Description>"No description"</Description>
+          <LastState Value="948.9979248" Activated="0" RealAddress="2C27B6C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27B6C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>101</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27B898"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27B898</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>102</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27BA68"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27BA68</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>138</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27BC38"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27BC38</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>104</ID>
+          <Description>"No description"</Description>
+          <LastState Value="875.3331299" Activated="0" RealAddress="2C27BFD8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27BFD8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>103</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27C548"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27C548</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>106</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27CAB8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27CAB8</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>159</ID>
+              <Description>"No description"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C27CABC"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C27CABC</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>83</ID>
+          <Description>"Proj 11 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27CE58"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27CE58</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>84</ID>
+          <Description>"Proj 12 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27D3C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27D3C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>118</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27D768"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27D768</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>119</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27DEA8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27DEA8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>61</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27E078"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27E078</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>139</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27E248"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27E248</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>105</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27E418"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27E418</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>107</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27E7B8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27E7B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>62</ID>
+          <Description>"No description"</Description>
+          <LastState Value="-1042" Activated="0" RealAddress="2C27EB58"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27EB58</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>63</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1280.377197" Activated="0" RealAddress="2C27ED28"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27ED28</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>121</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27F0C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27F0C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>85</ID>
+          <Description>"Proj 13 Pos X"</Description>
+          <LastState Value="60" Activated="0" RealAddress="2C27F9D8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27F9D8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>157</ID>
+          <Description>"Proj 14"</Description>
+          <LastState Value="" Activated="0" RealAddress="00000000"/>
+          <Color>80000008</Color>
+          <GroupHeader>1</GroupHeader>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>86</ID>
+              <Description>"Proj 14 Pos X"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C27F808"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C27F808</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>156</ID>
+              <Description>"Proj 14 Pos Y"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C27F80C"/>
+              <Color>80000008</Color>
+              <VariableType>Float</VariableType>
+              <Address>2C27F80C</Address>
+            </CheatEntry>
+            <CheatEntry>
+              <ID>158</ID>
+              <Description>"No description"</Description>
+              <LastState Value="0000000000000000" Activated="0" RealAddress="2C27F824"/>
+              <ShowAsHex>1</ShowAsHex>
+              <Color>80000008</Color>
+              <VariableType>8 Bytes</VariableType>
+              <Address>2C27F824</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>108</ID>
+          <Description>"No description"</Description>
+          <LastState Value="576.4177246" Activated="0" RealAddress="2C27FBA8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27FBA8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>149</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1288.424805" Activated="0" RealAddress="2C27FD78"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27FD78</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>150</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C27FF48"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C27FF48</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>151</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C280118"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C280118</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>152</ID>
+          <Description>"No description"</Description>
+          <LastState Value="978.4903564" Activated="0" RealAddress="2C2802E8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2802E8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>153</ID>
+          <Description>"No description"</Description>
+          <LastState Value="693.3331299" Activated="0" RealAddress="2C2804B8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2804B8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>154</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C280688"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C280688</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>163</ID>
+              <Description>"Proj Active?"</Description>
+              <LastState Value="0" Activated="0" RealAddress="2C280780"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>0</ShowAsBinary>
+              <Address>2C280780</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>87</ID>
+          <Description>"Proj 15 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C280BF8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C280BF8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>56</ID>
+          <Description>"Proj 1 Pos X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C280DC8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C280DC8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>88</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C281FE8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C281FE8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>109</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C281C48"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C281C48</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>65</ID>
+          <Description>"No description"</Description>
+          <LastState Value="922.1029053" Activated="0" RealAddress="2C281168"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C281168</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1148.540894" Activated="0" RealAddress="2C282558"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C282558</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>89</ID>
+          <Description>"Proj 16 Pos X"</Description>
+          <LastState Value="1275.911499" Activated="0" RealAddress="2C282AC8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C282AC8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>122</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1372.356323" Activated="0" RealAddress="2C282C98"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C282C98</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>67</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C283208"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C283208</Address>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>162</ID>
+              <Description>"Proj Active?"</Description>
+              <LastState Value="" Activated="0" RealAddress="2C283300"/>
+              <Color>80000008</Color>
+              <VariableType>Binary</VariableType>
+              <BitStart>0</BitStart>
+              <BitLength>1</BitLength>
+              <ShowAsBinary>1</ShowAsBinary>
+              <Address>2C283300</Address>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>90</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C283778"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C283778</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>110</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1187.079346" Activated="0" RealAddress="2C283948"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C283948</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>141</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C283EB8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C283EB8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>133</ID>
+          <Description>"No description"</Description>
+          <LastState Value="-2196" Activated="0" RealAddress="2C284258"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C284258</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>125</ID>
+          <Description>"No description"</Description>
+          <LastState Value="897.6405029" Activated="0" RealAddress="2C2845F8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2845F8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>123</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C2847C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2847C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>68</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C284D38"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C284D38</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>134</ID>
+          <Description>"No description"</Description>
+          <LastState Value="6579" Activated="0" RealAddress="2C284F08"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C284F08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>124</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C285478"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C285478</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C285818"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C285818</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>70</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C285BB8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C285BB8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>142</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C2864C8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2864C8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>126</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C286C08"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C286C08</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>71</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C286DD8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C286DD8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>111</ID>
+          <Description>"No description"</Description>
+          <LastState Value="0" Activated="0" RealAddress="2C2876E8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2876E8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>72</ID>
+          <Description>"No description"</Description>
+          <LastState Value="1372.356323" Activated="0" RealAddress="2C2878B8"/>
+          <Color>80000008</Color>
+          <VariableType>Float</VariableType>
+          <Address>2C2878B8</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>-- By Jesuszilla
+-- http://www.trinitymugen.net
+
+local HITBOX_VULNERABILITY  = 0
+local HITBOX_ATTACK         = 1
+local HITBOX_PUSH           = 2
+objects = {
+    ["Player 1"]            = {addr = 0x8340},
+    ["Player 2"]            = {addr = 0x8E88},
+    ["Player 3"]            = {addr = 0x99D0},
+    ["Player 4"]            = {addr = 0x88E4},
+    ["Player 5"]            = {addr = 0x942C},
+    ["Player 6"]            = {addr = 0x9F74},
+    ["Player 1 Cap Shield"] = {addr = 0xAC24}, -- OK
+    ["Player 2 Cap Shield"] = {addr = 0xAFC4}, -- OK
+    ["Player 3 Cap Shield"] = {addr = 0xB364}, -- OK
+    ["Player 4 Cap Shield"] = {addr = 0xB704}, -- OK
+    ["Player 5 Cap Shield"] = {addr = 0xBAA4}, -- OK
+    ["Player 6 Cap Shield"] = {addr = 0xBE44}  -- OK
+}
+p1ActiveAddr = 0x1F9CD0 -- P1 Active Player
+p2ActiveAddr = 0x1F9CD4 -- P2 Active Player
+selectedObj = objects["Player 1"]   -- default
+local isPaused = false
+
+-- Form notification timer
+function add_form_features(form)
+    if form.Caption:match("Hitbox Viewer") then
+        -- Hitbox watchdog timer
+        displayHitboxTimer = createTimer(form, false)
+        timer_setInterval(displayHitboxTimer, 15)
+        timer_onTimer(displayHitboxTimer, display_hitboxes)
+        timer_setEnabled(displayHitboxTimer, true)
+    end
+end
+
+---------------
+-- Variables --
+---------------
+aalist = getAutoAttachList()
+stringlist_add(aalist,"demul.exe");
+addressList = getAddressList()
+base = 0
+boxBase = {
+    pcsx2 = 0x20000000,
+    demul = 0x20000000     -- DEmul 0.7a_310715
+}
+game = {
+    numProj     = 188,
+    vulnStart   = 0x170,
+    atckStart   = 0x00,       -- Unused
+    projStart   = 0x123C4,
+    projOffset  = 0x1D0,
+    offset      = 0x00,       -- Unused
+    base        = 0x2C260000,
+    shift       = 0x03,
+    atckID      = 0x00,       -- Unused
+    anim        = 0x00,       -- Unused
+    posX        = 0x34,
+    posY        = 0x38,
+    velX        = 0x5C,
+    velY        = 0x60
+}
+
+-- In case user refreshes script
+if getOpenedProcessID() ~= nil then
+    onOpenProcess(getOpenedProcessID())
+end
+
+---------------
+-- Functions --
+---------------
+
+-- Trims whitespace from a string
+function string.trim(s)
+  -- from PiL2 20.4
+  return (s:gsub("^%s*(.-)%s*$", "%1"))
+end
+
+-- Finds whether a string starts with the given substring
+function string.starts(str,start)
+   return str:sub(0,start:len()+1):trim() ==start
+end
+
+-- Converts a number to an integer
+function tointeger(number)
+    return tonumber(string.format("%.0f", number))
+end
+
+-- Function to convert a signed byte to integer values
+function signed_byte_to_int(value)
+    if bAnd(value,128) &gt; 0 then
+        return value-256
+    else
+        return value
+    end
+end
+
+-- Function to convert a signed short to integer values
+function signed_short_to_int(value)
+    if bAnd(value,32768) &gt; 0 then
+        return value-65536
+    else
+        return value
+    end
+end
+
+-- Function to read shorts
+function readShort(addr, signed)
+    local a = readBytes(addr, 1, false)
+    local b = readBytes(addr+1, 1, false)
+    local retVal = bOr(bShl(b,8),a)
+    if signed and bAnd(128,b) &gt; 0 then
+        return signed_short_to_int(retVal)
+    else
+        return retVal
+    end
+end
+
+-- Reads a single byte, no bullshit
+function readByte(addr)
+   return readBytes(addr, 1, false)
+end
+
+-- Function to count the number of elements in a table
+function count(t)
+    local i = 0
+    for _ in pairs(t) do
+        i = i+1
+    end
+    return i
+end
+
+-- Determines whether or not an object (player, projectile) is active.
+function obj_active(obj)
+   if obj == nil or game.base == nil then return end
+    -- 0x487
+    if bAnd(readByte(game.base + obj['addr'] + 0x1C), 0x6) == 0x6 then
+	    return true
+    end
+end
+
+-- Iterates over a table in a sorted order
+-- taken from http://stackoverflow.com/questions/15706270/sort-a-table-in-lua
+function spairs(t, order)
+    -- collect the keys
+    local keys = {}
+    for k in pairs(t) do keys[#keys+1] = k end
+
+    -- if order function given, sort by it by passing the table and keys a, b,
+    -- otherwise just sort the keys
+    if order then
+        table.sort(keys, function(a,b) return order(t, a, b) end)
+    else
+        table.sort(keys)
+    end
+
+    -- return the iterator function
+    local i = 0
+    return function()
+        i = i + 1
+        if keys[i] then
+            return keys[i], t[keys[i]]
+        end
+    end
+end
+
+-- Compares the names
+function compare_numeric_names(t, a,b)
+    local x = tonumber(a:match("%d+"))
+    local y = tonumber(b:match("%d+"))
+
+    if a:find("Player") ~= nil and b:find("Player") ~= nil then
+       return x &lt; y
+    elseif a:find("Player") ~= nil then
+        return true
+    elseif b:find("Player") ~= nil then
+        return false
+    else
+        local x = tonumber(a:match("%d+"))
+        local y = tonumber(b:match("%d+"))
+        return x &lt; y
+    end
+end
+
+-- Removes trailing zeros from a numeric string
+function remove_trailing_zeros(str)
+    local ret = ""
+    local hitNonZero = false
+    for i=str:len(),0,-1 do
+        local digit = str:sub(i,i)
+        if not hitNonZero and (digit ~= "0" or i &gt; 0 and str:sub(i-1,i-1) == ".") then
+            hitNonZero = true
+        end
+        if hitNonZero then
+            ret = digit .. ret
+        end
+    end
+    return ret
+end
+
+-- Proj watchdog timer tick
+function check_obj(sender)
+    local mainForm = sender.getOwner()
+    if mainForm == nil then return end
+    local objList = mainForm.findComponentByName("ObjectListBox")
+    if objList == nil then return end
+    local i=0
+    for k,v in spairs(objects, compare_numeric_names) do
+        if obj_active(v) == true then
+            if objList.Items.indexOf(k) == -1 then
+                objList.Items.add(k)
+            end
+        elseif objList.Items.indexOf(k) &gt; -1 then
+            objList.Items.delete(objList.Items.indexOf(k))
+        end
+        i = i+1
+    end
+end
+
+---------------
+--   Main    --
+---------------
+
+-- Select the correct bases based on the process that was attached
+function onOpenProcess(processid)
+    -- PCSX2 hitbox base
+    if getProcessIDFromProcessName("pcsx2-r5875.exe") == processid then
+        base = boxBase.pcsx2
+    -- DEmul hitbox base
+    elseif getProcessIDFromProcessName("demul.exe") == processid then
+        base = boxBase.demul
+    end
+end
+
+-- Updates the velocity boxes
+function update_data(sender)
+    if getOpenedProcessID() &gt; 0 then
+        if sender == nil then return end
+        local form = sender.getOwner()
+        if form == nil then return end
+        -- Update the selected object's data if everything's been initialized.
+        -- Initialize the data if not already done so.
+        if not dataInitialized then
+            local objList = form.findComponentByName("ObjectListBox")
+            initialize_data(objList)
+        else
+            check_obj(sender)
+            update_obj_data(form)
+        end
+    end
+end
+
+-- Updates the object's data and puts them in the proper boxes
+function update_obj_data(mainForm)
+    if selectedObj == nil or not dataInitialized then return end
+    -- Address list &amp; form components
+    local xVelBox = mainForm.findComponentByName("CEEdit1")
+    local yVelBox = mainForm.findComponentByName("CEEdit2")
+    local deltaXVelBox = mainForm.findComponentByName("CEEdit3")
+    local deltaYVelBox = mainForm.findComponentByName("CEEdit4")
+    local xPosBox = mainForm.findComponentByName("CEEdit5")
+    local yPosBox = mainForm.findComponentByName("CEEdit6")
+
+    -- Previous velocities
+    prevVelX = tonumber(xVelBox.Text)
+    prevVelY = tonumber(yVelBox.Text)
+
+    -- Update the velocities
+    --print(string.format("velXInt = 0x%X", game.base + selectedObj.addr + game.velX))
+    local velXRaw = readFloat(game.base + selectedObj['addr'] + game.velX)
+    local velYRaw = readFloat(game.base + selectedObj['addr'] + game.velY)
+
+    if velXRaw == nil or velYRaw == nil then return end
+
+    local velX = tonumber(string.format("%.5f",velXRaw/2.0*6.0/5.0))
+    local velY = tonumber(string.format("%.5f",velYRaw/2.0*14.0/15.0))
+
+    -- Update the positions
+    local posX = readFloat(game.base + selectedObj['addr'] + game.posX)
+    local posY = readFloat(game.base + selectedObj['addr'] + game.posY)
+
+    if posX == nil or posY == nil then return end
+
+    -- Deltas
+    deltaVelX = velX - prevVelX
+    deltaVelY = velY - prevVelY
+
+    -- Update the boxes
+    xVelBox.Text = velX
+    yVelBox.Text = velY
+    if not (velX == prevVelX) then
+       deltaXVelBox.Text = velX - prevVelX
+    end
+    if not (velY == prevVelY) then
+       deltaYVelBox.Text = velY - prevVelY
+    end
+    xPosBox.Text = posX
+    yPosBox.Text = posY
+end
+
+function start_timer(sender)
+    local owner = sender.getOwner()
+    local vt = owner.findComponentByName("VelocityTimer")
+    local tb = owner.findComponentByName("HBVActive")
+    timer_setEnabled(vt, true)
+    if tb:getState() == 0 then
+        hitboxForm = createForm(false)
+        hitboxForm.Width = 640
+        hitboxForm.Height = 325
+        hitboxForm.Top = 89
+        hitboxForm.Left = 915
+        hitboxForm.Caption = "Hitbox Viewer"
+        hitboxForm.OnDestroy = function(sender) tb:setState(0) end
+        form_show(hitboxForm)
+        registerFormAddNotification(add_form_features(hitboxForm))
+        tb:setState(1)
+    end
+end
+
+
+function start_timer(sender)
+    local vt = sender.getOwner().findComponentByName("VelocityTimer")
+    timer_setEnabled(vt, true)
+end
+
+-- Gets the object's hitbox coordinates
+function get_obj_boxes(sender)
+    if selectedObj == nil then return end
+    -- Pay attention to the hitbox choice pointer
+    --local hitBoxOffset = bShl(tonumber(addressList.getMemoryRecordByDescription("Hitbox Offset").getValue(), 16), game.shift)
+    --local hitBoxTable = tonumber(addressList.getMemoryRecordByDescription("Hitbox Table").getValue(), 16)
+    --local hitBoxChoice = base + tonumber(addressList.getMemoryRecordByDescription("Hitbox Choice Ptr").getValue(), 16)
+    local copyingCLSN = sender.Caption and sender.Caption:match("Copy CLSNs")
+    local baseAddr = game.base + selectedObj['addr']
+    local hitBoxOffset = bShl(readShort(baseAddr + 0x154), game.shift)
+    local hitBoxTable = base + readInteger(baseAddr + game.vulnStart)
+    local hitBoxChoice = base + readInteger(baseAddr + 0x1C0)
+    --print(string.format("hitBoxTable = 0x%X", hitBoxTable))
+    --print(string.format("hitBoxChoice = 0x%X", hitBoxChoice))
+
+    -- Attack 1
+    local atk1BoxOffset = readShort(hitBoxChoice + 0x0)
+    local ab1Off = bAnd(0x1FFF, bShl(atk1BoxOffset, game.shift))
+    --print(string.format("atk1BoxOffset = 0x%X", atk1BoxOffset))
+
+    -- Attack 2
+    local atk2BoxOffset = readShort(hitBoxChoice + 0x2)
+    local ab2Off = bAnd(0x1FFF, bShl(atk2BoxOffset, game.shift))
+    --print(string.format("atk2BoxOffset = 0x%X", atk2BoxOffset))
+
+    -- Head box
+    local headBoxOffset = readShort(hitBoxChoice + 0x4)
+    local hbOff = bAnd(0x1FFF, bShl(headBoxOffset, game.shift))
+    --print(string.format("headBoxOffset = 0x%X", headBoxOffset))
+
+    -- Body box
+    local bodyBoxOffset = readShort(hitBoxChoice + 0x6)
+    local bbOff = bAnd(0x1FFF, bShl(bodyBoxOffset, game.shift))
+    --print(string.format("bodyBoxOffset = 0x%X", bodyBoxOffset))
+
+    -- Legs box
+    local legsBoxOffset = readShort(hitBoxChoice + 0x8)
+    local lbOff = bAnd(0x1FFF, bShl(legsBoxOffset, game.shift))
+    --print(string.format("legsBoxOffset = 0x%X", legsBoxOffset))
+
+    -- Extension box
+    local extsBoxOffset = readShort(hitBoxChoice + 0xA)
+    local ebOff = bAnd(0x1FFF, bShl(extsBoxOffset, game.shift))
+    --print(string.format("extsBoxOffset = 0x%X", extsBoxOffset))
+
+    -- Push box
+    local pushBoxOffset = readShort(hitBoxChoice + 0xC)
+    local pbOff = bAnd(0x1FFF, bShl(pushBoxOffset, game.shift))
+    --print(string.format("pushBoxOffset = 0x%X", pushBoxOffset))
+
+    -- Load the damn push box
+    selectedObj[HITBOX_PUSH] = {}
+    hitbox_load(selectedObj, 0, HITBOX_PUSH, hitBoxTable + pbOff)
+
+    -- Load the damn hitboxes
+    selectedObj[HITBOX_VULNERABILITY] = {}
+    hitbox_load(selectedObj, 0, HITBOX_VULNERABILITY, hitBoxTable + hbOff) -- from Hitbox Table
+    hitbox_load(selectedObj, 1, HITBOX_VULNERABILITY, hitBoxTable + bbOff)
+    hitbox_load(selectedObj, 2, HITBOX_VULNERABILITY, hitBoxTable + lbOff)
+    hitbox_load(selectedObj, 3, HITBOX_VULNERABILITY, hitBoxTable + ebOff)
+
+    -- Load the damn attack boxes
+    selectedObj[HITBOX_ATTACK] = {}
+    hitbox_load(selectedObj, 0, HITBOX_ATTACK, hitBoxTable + ab1Off)
+    hitbox_load(selectedObj, 1, HITBOX_ATTACK, hitBoxTable + ab2Off)
+
+    -- Spiral test
+    --hitbox_load(player1, 0, HITBOX_VULNERABILITY, 0x2C53C9C8) -- from Hitbox Table
+    --hitbox_load(player1, 1, HITBOX_VULNERABILITY, 0x2C53C9D0)
+    --hitbox_load(player1, 2, HITBOX_VULNERABILITY, 0x2C53C9D8)
+
+    -- Ryu test
+    --hitbox_load(player1, 0, HITBOX_VULNERABILITY, 0x2C4A4608) -- from Hitbox Table
+    --hitbox_load(player1, 1, HITBOX_VULNERABILITY, 0x2C4A4610)
+    --hitbox_load(player1, 2, HITBOX_VULNERABILITY, 0x2C4A4618)
+
+    -- Copy them to clipboard
+    local clsn2 = convert_to_air(selectedObj, HITBOX_VULNERABILITY)
+    local clsn1 = convert_to_air(selectedObj, HITBOX_ATTACK)
+
+    if copyingCLSN then
+        if clsn1 == "" then
+            writeToClipboard(clsn2)
+        else
+            writeToClipboard(clsn2 .. "\n" .. clsn1)
+        end
+    end
+end
+
+-- Converts hitboxes to .AIR syntax
+function convert_to_air(obj, type)
+    local boxes = obj[type]
+    local clsnBase = ""
+    local clsnStr = ""
+    local clsnCount = count(boxes)
+
+    -- If there are no CLSNs, return an empty string
+    if clsnCount == 0 then
+        return ""
+    end
+
+    if type == HITBOX_VULNERABILITY then
+        clsnBase = "Clsn2"
+    else
+        clsnBase = "Clsn1"
+    end
+
+    clsnsStr = ""
+    boxNo = 0
+    for i=0,clsnCount-1 do
+        local box = boxes[i]
+        if box ~= nil then
+            local coords = ""
+            if box.left == 0 and box.top == 0 and box.right == 0 and box.bottom == 0 then
+                clsnCount = clsnCount - 1
+            else
+                coords = string.format("%d,%d,%d,%d", box.left, box.top, box.right, box.bottom)
+                clsnsStr = clsnsStr .. string.format("\n  %s[%d] = ", clsnBase, boxNo) .. coords
+                boxNo = boxNo + 1
+            end
+        end
+    end
+
+    if clsnCount == 0 or clsnsStr == "" then
+        return ""
+    else
+        clsnStr = clsnBase .. ": " .. clsnCount
+        return clsnStr .. clsnsStr
+    end
+end
+
+-- Swaps 16-bit words.
+function word_swap(input)
+    local front = bAnd(input, 0xFFFF)
+    local back = bAnd(input, 0xFFFF0000)
+    local newBack = bShl(front, 16)
+    local newFront = bShr(back, 16)
+    return bOr(newFront, newBack)
+end
+
+-- Thanks, Dammit!
+function hitbox_load(obj, i, type, addr)
+	local hval    = readShort(addr + 0, true)
+	local vval    = readShort(addr + 4, true)
+	local hrad    = readShort(addr + 2, true)
+	local vrad    = readShort(addr + 6, true)
+    --local debug = string.format("hval = 0x%X, vval = 0x%X, hrad = 0x%X, vrad = 0x%X", hval,vval,hrad,vrad)
+    --print(string.format("addr = 0x%X", addr))
+    --print(string.format("addrDec = 0x%X", tonumber(addrDec) + 2))
+    --print(debug)
+
+	local left   = -(hval + hrad)
+	local top    = vval - vrad
+	local right  = -(hval - hrad)
+	local bottom = vval + vrad
+
+    -- Do nothing if the coordinates are 0'd out.
+    --if left == 0 and right == 0 and top == 0 and left == 0 then
+    --    return
+    --end
+
+	if type == HITBOX_VULNERABILITY then
+		obj[HITBOX_VULNERABILITY][i] = {
+			left   = left,
+			right  = right,
+			bottom = bottom,
+			top    = top,
+			hval   = hval,
+			vval   = vval,
+			type   = type
+		}
+    elseif type == HITBOX_ATTACK then
+		obj[HITBOX_ATTACK][i] = {
+			left   = left,
+			right  = right,
+			bottom = bottom,
+			top    = top,
+			hval   = hval,
+			vval   = vval,
+			type   = type
+		}
+	else
+		obj[type] = {
+			left   = left,
+			right  = right,
+			bottom = bottom,
+			top    = top,
+			hval   = hval,
+			vval   = vval,
+			type   = type
+		}
+	end
+end
+
+function start_timer(sender)
+    local owner = sender.getOwner()
+    local vt = owner.findComponentByName("VelocityTimer")
+    local tb = owner.findComponentByName("HBVActive")
+    timer_setEnabled(vt, true)
+    if tb:getState() == 0 then
+        hitboxForm = createForm(false)
+        hitboxForm.Width = 640
+        hitboxForm.Height = 325
+        hitboxForm.Top = 89
+        hitboxForm.Left = 915
+        hitboxForm.Caption = "Hitbox Viewer"
+        hitboxForm.OnDestroy = function(sender) tb:setState(0) end
+        form_show(hitboxForm)
+        registerFormAddNotification(add_form_features(hitboxForm))
+        tb:setState(1)
+    end
+end
+
+-- Populate the listbox
+function initialize_data(listbox)
+    dataInitialized = true
+    local listItems = {}
+    listbox.items.clear()
+    for i=0,game.numProj do
+        str = string.format("Projectile %d", i)
+        objects[str] = {addr = game.projStart+(game.projOffset*i)}
+    end
+    --for k,v in pairs(objects) do
+    --    listbox.Items.add(k)
+    --end
+    selectedObj = objects[1]
+end
+
+function set_selected_obj(sender, user)
+    --print(string.format("item = %s", sender.Items[sender.getItemIndex()]))
+    selectedObj = objects[sender.Items[sender.getItemIndex()]]
+    --print(string.format("addr = 0x%X",game.base + selectedObj['addr']))
+end
+
+-- Pauses the emulator
+function pause_unpause(sender)
+    local isPaused = readByte(0x2C212CA2)
+    if isPaused == 0 then
+        writeInteger(0x2C212CA2, 2)
+    else
+        writeInteger(0x2C212CA2, 0)
+    end
+end
+
+-- Returns the number of frames drawn so far
+function get_frames_drawn()
+    return readInteger(0x2C1F9D80)
+end
+
+-- Steps the emulator forward by 1 frame
+function step_frame(sender)
+    writeInteger(0x2C212CA2, 2)
+    local currentFrame = get_frames_drawn()
+    writeInteger(0x2C212CA2, 0)
+    while get_frames_drawn() == currentFrame do
+    end
+    writeInteger(0x2C212CA2, 2)
+end
+
+function draw_hitbox(axis, box, canvas)
+    if axis == nil or box == nil or canvas == nil then return end
+    if box.left == nil or box.right == nil or box.top == nil or box.bottom == nil then return end
+    local left   = axis.x + box.left
+    local right  = axis.x + box.right
+    local top    = axis.y + box.top
+    local bottom = axis.y + box.bottom
+
+    local color = box.type == HITBOX_ATTACK and 0x0000FF or
+                  box.type == HITBOX_PUSH and 0x00FF00 or
+                  box.type == HITBOX_VULNERABILITY and 0xFF0000 or
+                  0xFF00FF
+
+    draw_rect(canvas, left,top, right,bottom, color)
+end
+
+function draw_rect(canvas, left, top, right, bottom, color)
+    canvas:getPen():setColor(color)
+    canvas:line(left,top, right,top)
+    canvas:line(left,top, left,bottom)
+    canvas:line(right,top, right,bottom+1)
+    canvas:line(left,bottom, right,bottom)
+end
+
+-- Displays the hitboxes in the window
+function display_hitboxes(sender)
+    if sender == nil or sender.getOwner() == nil then return end
+    local c = sender.getOwner().getCanvas()
+    c:clear()
+
+    -- Canvas centers
+    local centerX = c:getWidth()/2.0
+    local centerY = c:getHeight()/2.0
+
+    -- Canvas offsets
+    local offsetX = -128
+    local offsetY = 64
+
+    local center = {x = centerX+offsetX, y = centerY+offsetY}
+
+    -- Draw axes
+    c:getPen():setColor(0x000000)
+    c:line(centerX+offsetX-8,centerY+offsetY, centerX+offsetX+9,centerY+offsetY)
+    c:line(centerX+offsetX,centerY+offsetY-8, centerX+offsetX,centerY+offsetY+10)
+
+    -- Do nothing if nothing is selected
+    if selectedObj == nil then return end
+
+    get_obj_boxes(sender)
+
+    local vulnBoxes = selectedObj[HITBOX_VULNERABILITY]
+    local atckBoxes = selectedObj[HITBOX_ATTACK]
+    local vCLSNCount = count(vulnBoxes)
+    local aCLSNCount = count(atckBoxes)
+
+    -- Draw the damn push box
+    box = selectedObj[HITBOX_PUSH]
+    if box ~= nil then
+        draw_hitbox(center, box, c)
+    end
+
+    -- Draw the damn vulnerability boxes
+    for i=0,vCLSNCount-1 do
+        box = vulnBoxes[i]
+        if box ~= nil and next(box) ~= nil then
+            draw_hitbox(center, box, c)
+        end
+    end
+
+    -- Draw the damn attack box
+    for i=0,aCLSNCount-1 do
+        box = atckBoxes[i]
+        if box ~= nil then
+            draw_hitbox(center, box, c)
+        end
+    end
+
+    return clsnStr
+end
+</LuaScript>
+</CheatTable>

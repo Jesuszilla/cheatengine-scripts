@@ -1,0 +1,1665 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <Forms>
+    <MainWindow Class="TCEForm" Encoding="Ascii85">jg=Pt):ZsuouqA(W/^G25+)1KNpM0i[V2*LO.:h]XrZCoPL/o3*;}#rvAeF^gD-+jC]dbT.7cHJ.g0jS;FRY^n%GXB[xIRO-agj;aJr2h-La1wG]K9khnSpT.=h}6jlOWLu9TVxk0*H4Dw.!m@^jY.T_Uv8s%{G^V?gVo]#pH_s?FK$tJWchRhxPq8gUwI+d9iNX989^P6aBx37xfw1KC9l2D-uckvD@LruQ,!Ll2q25=F5oI]wPx,FIPcj?f;Ll,BFU9wcm@m5i.[8J-K4Ws/+OiR7bVH7MaP/5l%fxeEia7_t1n1Bac!MS%*^A!yogh((@=#vH1VV5pBGip]ip-OeD2r]104tXNj.4h..6,OAY;e@u;Fq81,Dv5UDLUlOu6sn+jxnPw:*Cj^LN?#bdEV8KDxyrk?]sO=JCcGjvX3$,!eds3%P.]Bx4RKNLpdcW5[DP4C#mocepnD)ViT+mYt]?b)]?,C}#8m0pollC1XP_xxK;r!?Kzz)HyHxjusiQFxR2Qr7,Hz2WCxHDLXQjs4rk;WxGm[nsC/)!gYkHdh,=citHs=.Zu%sVA9Hp,{]MUPkO7;*@L9FLgZA*+zGE[929O9PHCQIJb/zL:TbBwyG0a:q:eUMH)pwy8g[,U=$lMWM/V?c_v44}Fy[v0OL-D2FG885b=C68EiS6xTEFXm]Irxy8_C0t2:;q:(*:EC{ogBx9s,GEtL7lgJH::kh0YxGQzoUUg[j4!ct{$qa6!27NJ]O96:5xjjLn3t]D?+7]=,?e18*:IX:c-E1#vWv{F7k@WgEfp@05tBCKDjxe7]BmI}[?qlX;Ey7W71wFMaVB/Aw;bsDmf%t)NV(lRPBrCZ/h_K+1</MainWindow>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>33</ID>
+      <Description>"Sound Test Num"</Description>
+      <LastState Value="0" Activated="0" RealAddress="04A53F0B"/>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF2F0C</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Stage Select"</Description>
+      <LastState Value="6" Activated="0" RealAddress="04A590FF"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF8100</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"Timer"</Description>
+      <LastState Value="99" Activated="1" RealAddress="04A59107"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF8108</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"Timer (SFA3U)"</Description>
+      <LastState Value="147712" Activated="0" RealAddress="04A5931E"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466a0</Address>
+      <Offsets>
+        <Offset>FF831F</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"Timer Ticks"</Description>
+      <LastState Value="43" Activated="0" RealAddress="04A5910A"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466a0</Address>
+      <Offsets>
+        <Offset>FF810B</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"Rounds to Show"</Description>
+      <LastState Value="2" Activated="0" RealAddress="04A59108"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466a0</Address>
+      <Offsets>
+        <Offset>FF8109</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>34</ID>
+      <Description>"Stage Version"</Description>
+      <LastState Value="255" Activated="0" RealAddress="04A5913F"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF8140</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>35</ID>
+      <Description>"Matches Won"</Description>
+      <LastState Value="0" Activated="0" RealAddress="04A5914D"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF814E</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>122</ID>
+      <Description>"P1"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>54</ID>
+          <Description>"P1 Life"</Description>
+          <LastState Value="144" Activated="0" RealAddress="04A59451"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8452</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>53</ID>
+          <Description>"P1 Life Recover"</Description>
+          <LastState Value="144" Activated="0" RealAddress="04A5944F"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8450</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>137</ID>
+          <Description>"P1 Power"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59509"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF850A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>8</ID>
+          <Description>"P1 Pal"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A5940D"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF840E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>39</ID>
+          <Description>"P1 Pos X"</Description>
+          <LastState Value="763" Activated="0" RealAddress="04A5940F"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8410</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>37</ID>
+          <Description>"P1 Pos X Flt"</Description>
+          <LastState Value="51456" Activated="0" RealAddress="04A59411"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8412</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>36</ID>
+          <Description>"P1 Pos Y"</Description>
+          <LastState Value="40" Activated="0" RealAddress="04A59413"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8414</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>38</ID>
+          <Description>"P1 Pos Y Flt"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59415"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8416</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>24</ID>
+          <Description>"P1 Vel X"</Description>
+          <LastState Value="1" Activated="0" RealAddress="04A5943F"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8440</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>23</ID>
+          <Description>"P1 Vel X Flt (Vel Y Flt SFA3U)"</Description>
+          <LastState Value="32768" Activated="0" RealAddress="04A59441"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8442</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>27</ID>
+          <Description>"P1 Vel X Flt (SFA3U)"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A5943D"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF843E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>25</ID>
+          <Description>"P1 Vel Y"</Description>
+          <LastState Value="8" Activated="0" RealAddress="04A59443"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8444</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>26</ID>
+          <Description>"P1 Vel Y Flt"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59445"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8446</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"P1 Visible"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A5941A"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF841B</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"P1 Frame Val"</Description>
+          <LastState Value="B62C0016" Activated="0" RealAddress="04A5941B"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF841C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>15</ID>
+          <Description>"P1 Frame Val 2"</Description>
+          <LastState Value="B62C" Activated="0" RealAddress="04A5941D"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF841E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"P1 Ticks"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59420"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8421</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"P1 Ticks (SFA3)"</Description>
+          <LastState Value="3" Activated="0" RealAddress="04A59432"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8433</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>65</ID>
+          <Description>"P1 Head Box Table Ptr"</Description>
+          <LastState Value="020A0202" Activated="0" RealAddress="04A5947F"/>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8480</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>66</ID>
+          <Description>"P1 Body Box Table Ptr"</Description>
+          <LastState Value="00000000" Activated="0" RealAddress="04A59483"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8484</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>67</ID>
+          <Description>"P1 Legs Box Table Ptr"</Description>
+          <LastState Value="5EF40010" Activated="0" RealAddress="04A59487"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8488</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>71</ID>
+          <Description>"P1 Attack Box Table Ptr"</Description>
+          <LastState Value="5F3C0010" Activated="0" RealAddress="04A5948B"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF848C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>134</ID>
+          <Description>"P1 Attack ID"</Description>
+          <LastState Value="4278190081" Activated="0" RealAddress="04A59409"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF840A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>69</ID>
+          <Description>"P1 Box Offsets"</Description>
+          <LastState Value="10 00 C6 62" Activated="0" RealAddress="04A59493"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Array of byte</VariableType>
+          <ByteLength>4</ByteLength>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8494</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>68</ID>
+          <Description>"P1 Body Box Offset"</Description>
+          <LastState Value="10" Activated="0" RealAddress="04A59493"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8494</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>70</ID>
+          <Description>"P1 Legs Box Offset"</Description>
+          <LastState Value="62" Activated="0" RealAddress="04A59496"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8497</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>128</ID>
+          <Description>"P1 Head Box Table Ptr (SFA3)"</Description>
+          <LastState Value="60CE0010" Activated="0" RealAddress="04A5948F"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8490</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>129</ID>
+          <Description>"P1 Body Box Table Ptr (SFA3)"</Description>
+          <LastState Value="62C60010" Activated="0" RealAddress="04A59493"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8494</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>130</ID>
+          <Description>"P1 Legs Box Table Ptr (SFA3)"</Description>
+          <LastState Value="647E0010" Activated="0" RealAddress="04A59497"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8498</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>131</ID>
+          <Description>"P1 Attack Box Table Ptr (SFA3)"</Description>
+          <LastState Value="65BE0010" Activated="0" RealAddress="04A5949F"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF84A0</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>132</ID>
+          <Description>"P1 Box Offsets (SFA3)"</Description>
+          <LastState Value="00030000" Activated="0" RealAddress="04A594C7"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF84C8</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>133</ID>
+          <Description>"P1 Attack ID (SFA3)"</Description>
+          <LastState Value="00000100" Activated="0" RealAddress="04A59408"/>
+          <ShowAsHex>1</ShowAsHex>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8409</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>123</ID>
+      <Description>"P2"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>48</ID>
+          <Description>"P2 Life"</Description>
+          <LastState Value="144" Activated="1" RealAddress="04A59851"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8852</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>47</ID>
+          <Description>"P2 Life Recover"</Description>
+          <LastState Value="144" Activated="1" RealAddress="04A5984F"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8850</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>138</ID>
+          <Description>"P2 Power"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59909"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF890A</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>57</ID>
+          <Description>"P2 Pal"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A5980D"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF880E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>41</ID>
+          <Description>"P2 Pos X"</Description>
+          <LastState Value="992" Activated="0" RealAddress="04A5980F"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8810</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>42</ID>
+          <Description>"P2 Pos X Flt"</Description>
+          <LastState Value="32768" Activated="0" RealAddress="04A59811"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8812</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>43</ID>
+          <Description>"P2 Pos Y"</Description>
+          <LastState Value="40" Activated="0" RealAddress="04A59813"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8814</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>44</ID>
+          <Description>"P2 Pos Y Flt"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59815"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8816</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>45</ID>
+          <Description>"P2 Vel X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A5983F"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8840</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>46</ID>
+          <Description>"P2 Vel X Flt"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59841"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8842</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>51</ID>
+          <Description>"P2 Vel Y"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59843"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8844</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>52</ID>
+          <Description>"P2 Vel Y Flt"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59845"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8846</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>58</ID>
+          <Description>"P2 Visible"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A5A41A"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF941B</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>59</ID>
+          <Description>"P2 Frame Val"</Description>
+          <LastState Value="22" Activated="0" RealAddress="04A5981B"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF881C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>60</ID>
+          <Description>"P2 Frame Val 2"</Description>
+          <LastState Value="32372" Activated="0" RealAddress="04A5981D"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF881E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>61</ID>
+          <Description>"P2 Ticks"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04A59820"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>007466A0</Address>
+          <Offsets>
+            <Offset>FF8821</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"P1 Proj Vel X"</Description>
+      <LastState Value="0" Activated="0" RealAddress="04A5A43F"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF9440</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"P1 Proj Vel X Flt"</Description>
+      <LastState Value="0" Activated="0" RealAddress="04A5A441"/>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF9442</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>55</ID>
+      <Description>"P1 Proj Vel Y"</Description>
+      <LastState Value="0" Activated="0" RealAddress="04A5A443"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF9444</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>56</ID>
+      <Description>"P1 Proj Vel Y Flt"</Description>
+      <LastState Value="0" Activated="0" RealAddress="04A5A445"/>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF9446</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>62</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="2C600442"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>2c600442</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>64</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="20059A8C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>20059A8C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>72</ID>
+      <Description>"Kawaks player space base"</Description>
+      <LastState Value="1B6A1BA0" Activated="0" RealAddress="03A60FFF"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>79</ID>
+      <Description>"FBA P1 Vel X"</Description>
+      <LastState Value="??" Activated="0" RealAddress="00E0E174"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>7DB44F8</Address>
+      <Offsets>
+        <Offset>84</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>80</ID>
+      <Description>"MAME P1 Vel X"</Description>
+      <LastState Value="??" Activated="0" RealAddress="66667674"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>087DEF18</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>106</ID>
+      <Description>"MAME Hitbox offset"</Description>
+      <LastState Value="??" Activated="0" RealAddress="0BFC35D4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0BFC35D4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>107</ID>
+      <Description>"MAME Hitbox Ptr"</Description>
+      <LastState Value="0000000000000000" Activated="0" RealAddress="001A35D8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>05D06260</Address>
+      <Offsets>
+        <Offset>A25B8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>108</ID>
+      <Description>"Kawaks Hitbox Start"</Description>
+      <LastState Value="FEFEFEF6FEFEF6FE" Activated="0" RealAddress="02DF85CC"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>02DF85CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>110</ID>
+      <Description>"No description"</Description>
+      <LastState Value="98DDF6FEFEFEFEFE" Activated="0" RealAddress="02DF85D8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>02DF85D8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>112</ID>
+      <Description>"Kawaks Hitbox Table Start"</Description>
+      <LastState Value="0A6E0E00" Activated="0" RealAddress="0A698020"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0074E6E0</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>119</ID>
+      <Description>"Kawaks Selected Game"</Description>
+      <LastState Activated="0" RealAddress="00559CA4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>255</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>006C97D8</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>120</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00030000" Activated="0" RealAddress="04A594C7"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF84C8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>121</ID>
+      <Description>"No description"</Description>
+      <LastState Value="00" Activated="0" RealAddress="04A594C8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF84C9</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>124</ID>
+      <Description>"P1 Proj Base Addr"</Description>
+      <LastState Value="00000000" Activated="0" RealAddress="04A5A3FF"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF9400</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>125</ID>
+      <Description>"No description"</Description>
+      <LastState Value="330306480" Activated="0" RealAddress="027E68A2"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>7466A0</Offset>
+        <Offset>FF8480</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>126</ID>
+      <Description>"No description"</Description>
+      <LastState Value="009B009A" Activated="0" RealAddress="03B035AF"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>A25B0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127</ID>
+      <Description>"No description"</Description>
+      <LastState Value="??" Activated="0" RealAddress="07373BD6"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>3912BD7</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>135</ID>
+      <Description>"Juggle Timer"</Description>
+      <LastState Value="60" Activated="0" RealAddress="04A599A4"/>
+      <Color>80000008</Color>
+      <VariableType>2 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF89A5</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>139</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0000000000160C82" Activated="0" RealAddress="0A389DB4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0A389DB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>140</ID>
+      <Description>"No description"</Description>
+      <LastState Value="000D0018000C0001" Activated="0" RealAddress="0A38B4B8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0A38B4B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>141</ID>
+      <Description>"No description"</Description>
+      <LastState Value="03A903A900000000" Activated="0" RealAddress="0A39042C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0A39042C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>142</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0101010101000000" Activated="0" RealAddress="0B0EDDB4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0B0EDDB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>143</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0C05060204000508" Activated="0" RealAddress="0A3A186C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0A3A186C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>144</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0101010101000000" Activated="0" RealAddress="0B0EDDB4"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0B0EDDB4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>145</ID>
+      <Description>"No description"</Description>
+      <LastState Value="2C2F3235383A3D40" Activated="0" RealAddress="0B0EF4B8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0B0EF4B8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>146</ID>
+      <Description>"No description"</Description>
+      <LastState Value="03F6F0FD0801F6F3" Activated="0" RealAddress="0B0F442C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0B0F442C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>147</ID>
+      <Description>"No description"</Description>
+      <LastState Value="F3F3F2F3F6F8FCFF" Activated="0" RealAddress="0B10586C"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0B10586C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>148</ID>
+      <Description>"No description"</Description>
+      <LastState Value="026400C5" Activated="0" RealAddress="03B6747D"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>10647E</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>149</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0000000000000000" Activated="0" RealAddress="0A79E49E"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>8 Bytes</VariableType>
+      <Address>0074E6E0</Address>
+      <Offsets>
+        <Offset>10647E</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>152</ID>
+      <Description>"Frames Drawn"</Description>
+      <LastState Value="50331757" Activated="0" RealAddress="04A590B4"/>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>007466A0</Address>
+      <Offsets>
+        <Offset>FF80B5</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>-- Prints the data into a form.
+-- By Jesuszilla
+-- http://www.trinitymugen.net
+
+local HITBOX_VULNERABILITY  = 0
+local HITBOX_ATTACK         = 1
+local HITBOX_PUSH           = 2
+local player1     = {
+    name = "Player 1",
+    addr = 0xFF8400
+}
+local player2     = {
+    name = "Player 2",
+    addr = 0xFF8800
+}
+local proj0       = {
+    name = "P1 Proj 0",
+    addr = 0xFF9400
+}
+selectedObj = player1  -- default
+local dataInitialized = false
+
+-- Form notification timer
+function add_form_features(form)
+    if form.Caption:match("Hitbox Viewer") then
+        -- Hitbox watchdog timer
+        displayHitboxTimer = createTimer(form, false)
+        timer_setInterval(displayHitboxTimer, 15)
+        timer_onTimer(displayHitboxTimer, display_hitboxes)
+        timer_setEnabled(displayHitboxTimer, true)
+        --bpWatchDogTimer = createTimer(nil, false)
+        --timer_setInterval(bpWatchDogTimer, 5000)
+        --timer_onTimer(bpWatchDogTimer, check_breakpoints)
+        --bpWatchDogTimer.Enabled = true
+    end
+end
+
+---------------
+-- Variables --
+---------------
+aalist = getAutoAttachList()
+stringlist_add(aalist,"WinKawaks.exe");
+stringlist_add(aalist,"demul.exe");
+sfa3Mode = false
+addressList = getAddressList()
+base = 0
+emuBase = {
+    kawaks = 0x007466A0,    -- Kawaks 1.62
+    demul  = 0x20000000     -- DEmul 0.57
+}
+boxBase = {
+    kawaks = 0x0074E6E0,    -- Kawaks 1.62
+    demul  = 0x20000000     -- DEmul 0.57
+}
+game = {
+    numProj     = 32,
+    vulnStart   = 0x80,     -- VSav default, 0x90 for SFA3
+    atckStart   = 0x8C,     -- VSav default, 0xA0 for SFA3
+    projStart   = 0xFF9400,
+    projOffset  = 0x100,
+    offset      = 0x00,     -- VSav default, 0x34 for SFA3
+    base        = 0x00,
+    shift       = 0x03,
+    atckID      = 0x0A,     -- VSav default, 0x09 for SFA3
+    anim        = 0x1C,
+    posX        = 0x10,
+    posXFlt     = 0x12,
+    posY        = 0x14,
+    posYFlt     = 0x16,
+    velX        = 0x40,
+    velXFlt     = 0x42,     -- VSav/SFA3 default, 0x3E for SFA3U (SS/PSX/DC/PSP)
+    velY        = 0x44,
+    velYFlt     = 0x46      -- VSav/SFA3 default, 0x42 for SFA3U (SS/PSX/DC/PSP)
+}
+
+-- In case user refreshes script
+if getOpenedProcessID() ~= nil then
+    onOpenProcess(getOpenedProcessID())
+end
+
+---------------
+-- Functions --
+---------------
+
+-- Game watchdog timer tick
+function check_name(sender)
+    if addressList == nil then return end
+    -- Kawaks game detection
+    gameName = addressList.getMemoryRecordByDescription("Kawaks Selected Game").getValue()
+    if gameName:match("Street Fighter Alpha 3") or gameName:match("Street Fighter Zero 3") and not sfa3Mode then
+        sfa3Mode = true
+        game.vulnStart = 0x90
+        game.atckStart = 0xA0
+        game.offset = 0x34
+        game.actkID = 0x09
+        if getOpenedProcessID() ~= nil then
+            onOpenProcess(getOpenedProcessID())
+        end
+    elseif gameName:match("Vampire Savior") or gameName:match("Vampire Hunter 2") and sfa3Mode then
+        sfa3Mode = false
+        game.vulnStart = 0x80
+        game.atckStart = 0x8C
+        game.offset = 0x00
+        game.atckId = 0x0A
+        if getOpenedProcessID() ~= nil then
+            onOpenProcess(getOpenedProcessID())
+        end
+    else
+        sfa3Mode = false
+    end
+end
+
+-- Proj watchdog timer tick
+function check_proj(sender)
+    local mainForm = sender.getOwner()
+    if mainForm == nil then return end
+    local objList = mainForm.findComponentByName("ObjectListBox")
+    if objList == nil then return end
+    local i=0
+    for _,v in spairs(objects, compare_numeric_names) do
+        if v['name']:match("Proj") and proj_active(v) == true then
+            objList.Items[i] = v['name'] .. " (ACTIVE)"
+        elseif objList.Items[i]:match("ACT") then
+            objList.Items[i] = v['name']
+        end
+        i = i+1
+    end
+end
+
+-- Function to convert a signed byte to integer values
+function signed_byte_to_int(value)
+    if bAnd(value,128) &gt; 0 then
+        return value-256
+    else
+        return value
+    end
+end
+
+-- Function to convert a signed short to integer values
+function signed_short_to_int(value)
+    if bAnd(value,32768) &gt; 0 then
+        return value-65536
+    else
+        return value
+    end
+end
+
+-- Function to read shorts
+function readShort(addr, signed)
+    local a = readBytes(addr, 1, false)
+    local b = readBytes(addr+1, 1, false)
+    local retVal = bOr(bShl(b,8),a)
+    if signed and bAnd(128,b) &gt; 0 then
+        return signed_short_to_int(retVal)
+    else
+        return retVal
+    end
+end
+
+-- Reads a single byte, no bullshit
+function readByte(addr)
+   return readBytes(addr, 1, false)
+end
+
+-- Counts the number of elements in a table
+function count(t)
+    if t == nil then
+        return 0
+    end
+
+    local i = 0
+    for _ in pairs(t) do
+        i = i+1
+    end
+    return i
+end
+
+-- Determines whether or not a projectile is active. Thanks, Dammit!
+function proj_active(obj)
+    if selectedObj == nil then return end
+    if readInteger(game.base + obj.addr) &gt; 0x0100 and readByte(game.base + obj.addr + 0x04) == 0x02 then
+	    return true
+    end
+end
+
+-- Iterates over a table in a sorted order
+-- taken from http://stackoverflow.com/questions/15706270/sort-a-table-in-lua
+function spairs(t, order)
+    -- collect the keys
+    local keys = {}
+    for k in pairs(t) do keys[#keys+1] = k end
+
+    -- if order function given, sort by it by passing the table and keys a, b,
+    -- otherwise just sort the keys
+    if order then
+        table.sort(keys, function(a,b) return order(t, a, b) end)
+    else
+        table.sort(keys)
+    end
+
+    -- return the iterator function
+    local i = 0
+    return function()
+        i = i + 1
+        if keys[i] then
+            return keys[i], t[keys[i]]
+        end
+    end
+end
+
+-- Compares the names
+function compare_numeric_names(t, a,b)
+    local x = tonumber(t[a]['name']:match("%d+"))
+    local y = tonumber(t[b]['name']:match("%d+"))
+
+    if t[a]['name']:find("Player") ~= nil and t[b]['name']:find("Player") ~= nil then
+       return x &lt; y
+    elseif t[a]['name']:find("Player") ~= nil then
+        return true
+    elseif t[b]['name']:find("Player") ~= nil then
+        return false
+    else
+        local x = tonumber(t[a]['name']:match("%d+"))
+        local y = tonumber(t[b]['name']:match("%d+"))
+        return x &lt; y
+    end
+end
+
+---------------
+--   Main    --
+---------------
+
+-- Select the correct bases based on the process that was attached
+function onOpenProcess(processid)
+    --print("THAT'S THE SOUND OF THE POLICE")
+    -- Kawaks hitbox base
+    if getProcessIDFromProcessName("WinKawaks.exe") == processid then
+        game.base = readInteger(emuBase.kawaks)
+        base = readInteger(boxBase.kawaks)
+    -- MAME-rr hitbox base
+    elseif getProcessIDFromProcessName("mame.exe") == processid or getProcessIDFromProcessName("mame-rr.exe") == processid then
+        game.base = readInteger(emuBase.mamerr)
+        base = readInteger(boxBase.mamerr)
+    -- DEmul hitbox base
+    elseif getProcessIDFromProcessName("demul.exe") == processid then
+        game.base = readInteger(emuBase.demul)
+        base = readInteger(boxBase.demul)
+    end
+    --print(string.format("base = 0x%X", base))
+end
+
+-- Updates the velocity boxes
+function update_data(sender)
+    if getOpenedProcessID() &gt; 0 then
+        local form = sender.getOwner()
+        -- Initialize the list of objects
+        if not dataInitialized then
+            check_name(sender)
+            local objList = form.findComponentByName("ObjectListBox")
+            initialize_data(objList)
+            -- Game name watchdog timer
+            gameWatchDogTimer = createTimer(nil, false)
+            timer_setInterval(gameWatchDogTimer, 500)
+            timer_onTimer(gameWatchDogTimer, check_name)
+            timer_setEnabled(gameWatchDogTimer, true)
+        else
+            -- Update the selected object's data
+            check_proj(sender)
+            update_obj_data(selectedObj, form)
+        end
+    end
+end
+
+-- Updates P1's data and puts them in the proper boxes
+function update_obj_data(obj, mainForm)
+    if obj == nil then return end
+    -- Address list &amp; form components
+    local xVelBox = mainForm.findComponentByName("CEEdit1")
+    local yVelBox = mainForm.findComponentByName("CEEdit2")
+    local deltaXVelBox = mainForm.findComponentByName("CEEdit3")
+    local deltaYVelBox = mainForm.findComponentByName("CEEdit4")
+    local xPosBox = mainForm.findComponentByName("CEEdit5")
+    local yPosBox = mainForm.findComponentByName("CEEdit6")
+
+    -- Previous velocities
+    prevVelX = tonumber(xVelBox.Text)
+    prevVelY = tonumber(yVelBox.Text)
+
+    -- Update the velocities
+    --print(string.format("velXInt = 0x%X", game.base + obj.addr + game.velX))
+    local velXInt = signed_short_to_int(readShort(game.base + obj.addr + game.velX))
+    local velYInt = signed_short_to_int(readShort(game.base + obj.addr + game.velY))
+    velX = velXInt + (readShort(game.base + obj.addr + game.velXFlt) / 65536.0)
+    velY = - (velYInt + (readShort(game.base + obj.addr + game.velYFlt) / 65536.0))
+
+    -- Update the positions
+    local posXInt = signed_short_to_int(readShort(game.base + obj.addr + game.posX))
+    local posYInt = signed_short_to_int(readShort(game.base + obj.addr + game.posY))
+    posX = posXInt + (readShort(game.base + obj.addr + game.posXFlt) / 65536.0)
+    posY = - (posYInt + (readShort(game.base + obj.addr + game.posYFlt) / 65536.0))
+
+    -- Deltas
+    deltaVelX = velX - prevVelX
+    deltaVelY = velY - prevVelY
+
+    -- Update the boxes
+    xVelBox.Text = velX
+    yVelBox.Text = velY
+    if not (velX == prevVelX) then
+       deltaXVelBox.Text = velX - prevVelX
+    end
+    if not (velY == prevVelY) then
+       deltaYVelBox.Text = velY - prevVelY
+    end
+    xPosBox.Text = posX
+    yPosBox.Text = posY
+end
+
+function start_timer(sender)
+    local owner = sender.getOwner()
+    local vt = owner.findComponentByName("VelocityTimer")
+    local tb = owner.findComponentByName("HBVActive")
+    timer_setEnabled(vt, true)
+    if tb:getState() == 0 then
+        hitboxForm = createForm(false)
+        hitboxForm.Width = 640
+        hitboxForm.Height = 325
+        hitboxForm.Top = 89
+        hitboxForm.Left = 915
+        hitboxForm.Caption = "Hitbox Viewer"
+        hitboxForm.OnDestroy = function(sender) tb:setState(0) end
+        form_show(hitboxForm)
+        registerFormAddNotification(add_form_features(hitboxForm))
+        tb:setState(1)
+    end
+end
+
+-- Gets the specified hitbox coordinates
+function get_obj_boxes(sender)
+    if selectedObj == nil or sender == nil then return end
+
+    -- Are we copying CLSN?
+    local copyingCLSN = false
+    if sender.Caption ~= nil and sender.Caption:match("Copy CLSNs") then
+       copyingCLSN = true
+    end
+
+    --print(string.format("headBoxTable = 0x%x", game.base + selectedObj.addr + game.vulnStart))
+    local baseAddr = game.base + selectedObj.addr
+    local headBoxTable = readInteger(baseAddr + game.vulnStart + 0x0)
+    local bodyBoxTable = readInteger(baseAddr + game.vulnStart + 0x4)
+    local legsBoxTable = readInteger(baseAddr + game.vulnStart + 0x8)
+    local pushBoxTable = readInteger(baseAddr + game.vulnStart + 0xC)
+    local atckBoxTable = readInteger(baseAddr + game.atckStart)
+    local animPtr = readInteger(baseAddr + game.anim)
+    --print(string.format("legsBoxTable = 0x%X", legsBoxTable))
+    --local animPtr = addressList.getMemoryRecordByDescription("P1 Frame Val").getValue()
+
+    -- Head box
+    --print(string.format("headBoxTable = 0x%X", headBoxTable))
+    local headBoxOffset = readByte(baseAddr + game.offset + 0x95)
+    local hbOff = bShl(headBoxOffset, game.shift)
+    --print("headBoxOffset = " .. headBoxOffset)
+
+    -- Body box
+    local bodyBoxOffset = readByte(baseAddr + game.offset + 0x94)
+    local bbOff = bShl(bodyBoxOffset, game.shift)
+    --print("bodyBoxOffset = " .. bodyBoxOffset)
+
+    -- Push box
+    local pushBoxOffset = readByte(baseAddr + game.offset + 0x96)
+    local pbOff = bShl(pushBoxOffset, game.shift)
+    --print("legsBoxOffset = " .. legsBoxOffset)
+
+    -- Legs box
+    local legsBoxOffset = readByte(baseAddr + game.offset + 0x97)
+    local lbOff = bShl(legsBoxOffset, game.shift)
+    --print("legsBoxOffset = " .. legsBoxOffset)
+
+    -- Load the damn hitboxes
+    selectedObj[HITBOX_VULNERABILITY] = {}
+    hitbox_load(selectedObj, 0, HITBOX_VULNERABILITY, word_swap(headBoxTable) + hbOff)
+    hitbox_load(selectedObj, 1, HITBOX_VULNERABILITY, word_swap(bodyBoxTable) + bbOff)
+    hitbox_load(selectedObj, 2, HITBOX_VULNERABILITY, word_swap(legsBoxTable) + lbOff)
+    hitbox_load(selectedObj, 0, HITBOX_PUSH, word_swap(pushBoxTable) + pbOff)
+
+    -- Load the damn attack box
+    selectedObj[HITBOX_ATTACK] = {}
+    local atckBoxOffset = word_swap(animPtr)
+    atckBoxOffset = atckBoxOffset + game.atckID
+    --print(string.format("base+atckBoxOffset = 0x%X", atckBoxOffset))
+    local abOff = readByte(base + atckBoxOffset - (sfa3Mode and 2 or -1))
+    --print(string.format("abOff addr = 0x%X", base + atckBoxOffset - (sfa3Mode and 2 or -1)))
+    if abOff then
+        hitbox_load(selectedObj, 0, HITBOX_ATTACK, word_swap(atckBoxTable) + abOff*0x20)
+    end
+
+    -- Copy them to clipboard
+    local clsn2 = convert_to_air(selectedObj, HITBOX_VULNERABILITY)
+    local clsn1 = convert_to_air(selectedObj, HITBOX_ATTACK)
+
+    if copyingCLSN then
+        if clsn1 == "" then
+            writeToClipboard(clsn2)
+        else
+            writeToClipboard(clsn2 .. "\n" .. clsn1)
+        end
+    end
+end
+
+-- Gets the pushbox data
+function get_obj_push(sender)
+    local baseAddr = game.base + selectedObj.addr
+    local pushBoxTable = readInteger(baseAddr + game.vulnStart + 0xC)
+
+    -- Push box
+    local pushBoxOffset = readByte(baseAddr + game.offset + 0x96)
+    local pbOff = bShl(pushBoxOffset, game.shift)
+
+    hitbox_load(selectedObj, 0, HITBOX_PUSH, word_swap(pushBoxTable) + pbOff)
+
+    writeToClipboard(convert_to_mugen(selectedObj, HITBOX_PUSH))
+end
+
+-- Converts the pushbox to width/height coordinates
+function convert_to_mugen(obj, type)
+   local box = obj[type]
+   return string.format("width.back = %d\nwidth.front = %d\nheight.bottom=%d,height.top=%d",
+                         box.left, box.right, box.bottom, box.top)
+end
+
+-- Converts hitboxes to .AIR syntax
+function convert_to_air(obj, type)
+    local boxes = obj[type]
+    local clsnBase = ""
+    local clsnStr = ""
+    local clsnCount = count(boxes)
+
+    -- If there are no CLSNs, return an empty string
+    if clsnCount == 0 then
+        return ""
+    end
+
+    -- There can be only one attack box at any given moment
+    if type == HITBOX_ATTACK then
+        clsnCount = 1
+    end
+
+    if type == HITBOX_VULNERABILITY then
+        clsnBase = "Clsn2"
+    elseif type == HITBOX_ATTACK then
+        clsnBase = "Clsn1"
+    end
+
+    clsnsStr = ""
+    boxNo = 0
+    for i=0,clsnCount-1 do
+        local box
+        if type == HITBOX_ATTACK then box = boxes else box = boxes[i] end
+        if box ~= nil then
+            local coords = ""
+            if box.left == 0 and box.top == 0 and box.right == 0 and box.bottom == 0 then
+                clsnCount = clsnCount - 1
+            else
+                coords = string.format("%d,%d,%d,%d", box.left, box.top, box.right, box.bottom)
+                clsnsStr = clsnsStr .. string.format("\n  %s[%d] = ", clsnBase, boxNo) .. coords
+                boxNo = boxNo + 1
+            end
+        end
+    end
+
+    if clsnCount == 0 then
+        return ""
+    else
+        clsnStr = clsnBase .. ": " .. clsnCount
+        return clsnStr .. clsnsStr
+    end
+end
+
+-- Swaps 16-bit words.
+function word_swap(input)
+    local front = bAnd(input, 0xFFFF)
+    local back = bAnd(input, 0xFFFF0000)
+    local newBack = bShl(front, 16)
+    local newFront = bShr(back, 16)
+    return bOr(newFront, newBack)
+end
+
+-- Thanks, Dammit!
+function hitbox_load(obj, i, type, addr)
+    local addrBase = base + addr
+	local hval    = readShort(addrBase + 0, true)
+	local vval    = readShort(addrBase + 2, true)
+	local hrad    = readShort(addrBase + 4, true)
+	local vrad    = readShort(addrBase + 6, true)
+    --local debug = string.format("hval = 0x%X, vval = 0x%X, hrad = 0x%X, vrad = 0x%X", hval,vval,hrad,vrad)
+    --print(string.format("addr = 0x%X", addr))
+    --print(string.format("addrDec = 0x%X", tonumber(addrDec) + 2))
+    --print(debug)
+
+	local left   = - (hval + hrad)
+	local top    = - (vval + vrad)
+	local right  = - (hval - hrad)
+	local bottom = - (vval - vrad)
+
+	if type == HITBOX_VULNERABILITY then
+		obj[HITBOX_VULNERABILITY][i] = {
+			left   = left,
+			right  = right,
+			bottom = bottom,
+			top    = top,
+			hval   = hval,
+			vval   = vval,
+			type   = type
+		}
+	else
+		obj[type] = {
+			left   = left,
+			right  = right,
+			bottom = bottom,
+			top    = top,
+			hval   = hval,
+			vval   = vval,
+			type   = type
+		}
+	end
+end
+
+-- Switches between SFA3 and VSav
+function change_toggle_mode(sender)
+    sfa3Mode = not sfa3Mode
+    if sfa3Mode then
+        sender.Caption = "VSav/SFA3"
+    else
+        sender.Caption = "SFA3U"
+    end
+end
+
+-- Populate the listbox
+function initialize_data(listbox)
+    dataInitialized = true
+    local listItems = {}
+    listbox.items.clear()
+    objects = {player1, player2}
+    -- Allocate the object list with the number of projectiles
+    for i=0,game.numProj do
+        local n = "Projectile " .. i
+        objects[i+3] = {name = string.format("Projectile %d", i),
+                        addr = game.projStart+(game.projOffset*i)
+    }
+    end
+    for k,v in spairs(objects, compare_numeric_names) do
+        listbox.items.add(objects[k]['name'])
+    end
+    selectedObj = objects[0]
+end
+
+function set_selected_obj(sender, user)
+    for _,v in pairs(objects) do
+        if v['name'] == sender.Items[sender.getItemIndex()] then
+            selectedObj = v
+            break
+        end
+    end
+end
+
+-- Displays the hitboxes in the window
+function display_hitboxes(sender)
+    if sender == nil or sender.getOwner() == nil then return end
+    local c = sender.getOwner().getCanvas()
+    c:clear()
+
+    -- Canvas centers
+    local centerX = c:getWidth()/2.0
+    local centerY = c:getHeight()/2.0
+
+    -- Canvas offsets
+    local offsetX = -128
+    local offsetY = 64
+
+    local center = {x = centerX+offsetX, y = centerY+offsetY}
+
+    -- Draw axes
+    c:getPen():setColor(0x000000)
+    c:line(centerX+offsetX-8,centerY+offsetY, centerX+offsetX+9,centerY+offsetY)
+    c:line(centerX+offsetX,centerY+offsetY-8, centerX+offsetX,centerY+offsetY+10)
+
+    -- Do nothing if nothing is selected
+    if selectedObj == nil then return end
+
+    get_obj_boxes(sender)
+
+    local boxes = selectedObj[HITBOX_VULNERABILITY]
+    local clsnCount = count(boxes)
+
+    -- Draw the damn push box
+    box = selectedObj[HITBOX_PUSH]
+    if box ~= nil then
+        draw_hitbox(center, box, c)
+    end
+
+    -- Draw the damn vulnerability boxes
+    for i=0,clsnCount-1 do
+        box = boxes[i]
+        if box ~= nil and next(box) ~= nil then
+            draw_hitbox(center, box, c)
+        end
+    end
+
+    -- Draw the damn attack box
+    box = selectedObj[HITBOX_ATTACK]
+    if box ~= nil then
+        draw_hitbox(center, box, c)
+    end
+
+    return clsnStr
+end
+
+function draw_hitbox(axis, box, canvas)
+    if axis == nil or box == nil or canvas == nil then return end
+    if axis.x == nil or axis.y == nil then return end
+    if box.left == nil or box.right == nil or box.top == nil or box.bottom == nil then return end
+    local left   = axis.x + box.left
+    local right  = axis.x + box.right
+    local top    = axis.y + box.top
+    local bottom = axis.y + box.bottom
+
+    local color = box.type == HITBOX_ATTACK and 0x0000FF or box.type == HITBOX_PUSH and 0x00FF00 or 0xFF0000
+
+    draw_rect(canvas, left,top, right,bottom, color)
+end
+
+function draw_rect(canvas, left, top, right, bottom, color)
+    canvas:getPen():setColor(color)
+    canvas:line(left,top, right,top)
+    canvas:line(left,top, left,bottom)
+    canvas:line(right,top, right,bottom+1)
+    canvas:line(left,bottom, right,bottom)
+end
+</LuaScript>
+</CheatTable>

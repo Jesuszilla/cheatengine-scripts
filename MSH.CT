@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="18">
+  <Forms>
+    <MainWindow Class="TCEForm" Encoding="Ascii85">jg)K1)m*u-r!CNbi]g}t.K77!.;^S]e,O=.K!}iM*Ll4^fzHCPWrnna!1wS:7)a@1o.;(@OuTq@%9K*Mmi0nAed,W3o_)6ACkKGrsup$EsZ=n(u]VGd+O,+8o?t.Prj=ak4dLO4X*^H0:}V4zud(BQT20j+IAxfU,}do3tx$#x798sPXuxQ2.P?C3mb[_/[4=I)dqn4T.::H?1Owd(+(BZjm!W:zL*]a}32YAZHlVX/i7xET=JGg]3#[S3LG;u6]lKXOxn[UNS,,[3fGv@[ie06Iy%bgTx7C6HFGkM^!-f53.GsYTz}D3u+hjt+Uj;J1#2D)66}(;TP;(OcY@QLAd_Sx!-JyXYQ9F@Uo$ac1C2G.pRXogeaf!*ZueF_}$uvVTJ_gHfiN7;c0W(UIu$*rdQ9F@U75Azs8=}LJr[!Wuob+MKRKNSuc^uB-l(-a+OPJI;OlMLiCS(?K^Xdg3O)jg*9.R}^llBe7P_wp1*{rA/4R#?wyOYRuC362HJeMWZz5,=a%*O0uAr/+96UlBwfXP*#GsY.%wiyhV7zaPrLrQ)Rl6j{Z!3IgNqt*LFWekUeh71ovy-D}e7}JZ17=pYqPf)ER./TB$zKOrC?wVUb,OL]TSq[}p3r=f]eq*p$BG#k+aj#DoC];gc09JHjIAnap/.C2JSHjP^XWab,R-K[q3/Hjuq;Z8h%n6)kBtxVhhTJn.Jw#q*p6Wl+C}lNH(-/DVFk7xxdWAqfg,0Tl6NZA%(^r+/Le%Wp*PoH5[zyhbhSBE5mDEP@v-%4</MainWindow>
+  </Forms>
+  <CheatEntries>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"Timer"</Description>
+      <LastState Value="97" Activated="1" RealAddress="04AA57E8"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>00746660</Address>
+      <Offsets>
+        <Offset>FF4809</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>9</ID>
+      <Description>"Timer (153 max)"</Description>
+      <LastState Value="69" Activated="0" RealAddress="04AB57F8"/>
+      <Color>80000008</Color>
+      <VariableType>Byte</VariableType>
+      <Address>04AB57F8</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>6</ID>
+          <Description>"Timer Tick"</Description>
+          <LastState Value="46665" Activated="0" RealAddress="04AB57F6"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>04AB57F6</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>15</ID>
+      <Description>"P1"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="0" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>10</ID>
+          <Description>"P1 Life"</Description>
+          <LastState Value="144" Activated="0" RealAddress="04AA516F"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>0074E6D0</Address>
+          <Offsets>
+            <Offset>FF4190</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>11</ID>
+              <Description>"P1 Life Recover"</Description>
+              <LastState Value="144" Activated="0" RealAddress="04AB0ACB"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>00746660</Address>
+              <Offsets>
+                <Offset>FFFAEC</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>13</ID>
+          <Description>"P1 Vel X"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04AA4FF3"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00746660</Address>
+          <Offsets>
+            <Offset>FF4014</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>14</ID>
+          <Description>"P1 Vel X Flt"</Description>
+          <LastState Value="0" Activated="0" RealAddress="04AA4FF5"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00746660</Address>
+          <Offsets>
+            <Offset>FF4016</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>20</ID>
+          <Description>"P1 Vel Y"</Description>
+          <LastState Value="65535" Activated="0" RealAddress="04AA4FFB"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>00746660</Address>
+          <Offsets>
+            <Offset>FF401C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>21</ID>
+          <Description>"P1 Vel Y Flt."</Description>
+          <LastState Value="8192" Activated="0" RealAddress="04AA4FFD"/>
+          <Color>80000008</Color>
+          <VariableType>4 Bytes</VariableType>
+          <Address>00746660</Address>
+          <Offsets>
+            <Offset>FF401E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>19</ID>
+          <Description>"P1 Pos X"</Description>
+          <LastState Value="741" Activated="0" RealAddress="04AA4FEB"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>0074E6D0</Address>
+          <Offsets>
+            <Offset>FF400C</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>18</ID>
+          <Description>"P1 Pos X Flt."</Description>
+          <LastState Value="16384" Activated="0" RealAddress="04AA4FED"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>0074E6D0</Address>
+          <Offsets>
+            <Offset>FF400E</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>17</ID>
+          <Description>"P1 Pos Y"</Description>
+          <LastState Value="121" Activated="0" RealAddress="04AA4FEF"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>0074E6D0</Address>
+          <Offsets>
+            <Offset>FF4010</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>16</ID>
+          <Description>"P1 Pos Y Flt."</Description>
+          <LastState Value="20480" Activated="0" RealAddress="04AA4FF1"/>
+          <Color>80000008</Color>
+          <VariableType>2 Bytes</VariableType>
+          <Address>0074E6D0</Address>
+          <Offsets>
+            <Offset>FF4012</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>23</ID>
+      <Description>"P2"</Description>
+      <Options moHideChildren="1"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
+      <Color>80000008</Color>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>7</ID>
+          <Description>"P2 Life"</Description>
+          <LastState Value="144" Activated="1" RealAddress="04AA556F"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>0074E6D0</Address>
+          <Offsets>
+            <Offset>FF4590</Offset>
+          </Offsets>
+          <CheatEntries>
+            <CheatEntry>
+              <ID>8</ID>
+              <Description>"P2 Life Recover"</Description>
+              <LastState Value="144" Activated="0" RealAddress="04AB0AFB"/>
+              <Color>80000008</Color>
+              <VariableType>Byte</VariableType>
+              <Address>0074E6D0</Address>
+              <Offsets>
+                <Offset>FFFB1C</Offset>
+              </Offsets>
+            </CheatEntry>
+          </CheatEntries>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>22</ID>
+          <Description>"P2 Vel X"</Description>
+          <LastState Value="231" Activated="0" RealAddress="04AB5403"/>
+          <Color>80000008</Color>
+          <VariableType>Byte</VariableType>
+          <Address>04AB5403</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"emuBase"</Description>
+      <LastState Value="03AB0FDF" Activated="0" RealAddress="00746660"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>00746660</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"No description"</Description>
+      <LastState Value="14B214B2" Activated="0" RealAddress="03AB0FDF"/>
+      <ShowAsHex>1</ShowAsHex>
+      <Color>80000008</Color>
+      <VariableType>4 Bytes</VariableType>
+      <Address>00746660</Address>
+      <Offsets>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"Kawaks Selected Game"</Description>
+      <LastState Activated="0" RealAddress="0055AD74"/>
+      <Color>80000008</Color>
+      <VariableType>String</VariableType>
+      <Length>255</Length>
+      <Unicode>0</Unicode>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>006C97D8</Address>
+      <Offsets>
+        <Offset>0</Offset>
+        <Offset>0</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>-- Prints the data into a form.
+-- By Jesuszilla
+-- http://www.trinitymugen.net
+
+local HITBOX_VULNERABILITY  = 0
+local HITBOX_ATTACK         = 1
+local HITBOX_PUSH           = 2
+local player1     = {
+    name = "Player 1",
+    addr = 0xFF4000
+}
+local player2     = {
+    name = "Player 2",
+    addr = 0xFF4400
+}
+local proj0       = {
+    name = "P1 Proj 0",
+    addr = 0xFFE400
+}
+selectedObj = player1  -- default
+local dataInitialized = false
+
+---------------
+-- Variables --
+---------------
+aalist = getAutoAttachList()
+stringlist_add(aalist,"WinKawaks.exe");
+sfa3Mode = false
+addressList = getAddressList()
+base = 0
+emuBase = {
+    kawaks = 0x00746660,    -- Kawaks 1.62
+}
+boxBase = {
+    kawaks = 0x0074E700,    -- Kawaks 1.62
+}
+game = {
+    numProj    = 32,
+    hbTable    = 0x90,
+    hbStart    = 0x74,
+    projStart  = 0xFFE400,
+    projOffset = 0x148,
+    offset     = 0x00,
+    base       = 0x00,
+    shift      = 0x03,
+    anim       = 0x00,
+    posX       = 0x0C,
+    posXFlt    = 0x0E,
+    posY       = 0x10,
+    posYFlt    = 0x12,
+    velX       = 0x14,
+    velXFlt    = 0x16,
+    velY       = 0x1C,
+    velYFlt    = 0x1E
+}
+
+-- In case user refreshes script
+if getOpenedProcessID() ~= nil then
+    onOpenProcess(getOpenedProcessID())
+end
+
+---------------
+-- Functions --
+---------------
+
+-- Game name watchdog timer tick
+function check_name(sender)
+    gameName = addressList.getMemoryRecordByDescription("Kawaks Selected Game").getValue()
+    if gameName:match("Marvel Super Heroes") and not gameName:match("Marvel Super Heroes Vs.") then
+        game.base = readInteger(emuBase.kawaks)
+        base = readInteger(boxBase.kawaks)
+    else
+        game.base = 0
+        base = 0
+    end
+end
+
+-- Proj watchdog timer tick
+function check_proj(sender)
+    local mainForm = sender.getOwner()
+    if mainForm == nil then return end
+    local objList = mainForm.findComponentByName("ObjectListBox")
+    if objList == nil then return end
+    local i=0
+    for _,v in spairs(objects, compare_numeric_names) do
+        if v['name']:match("Proj") and proj_active(v) == true then
+            objList.Items[i] = v['name'] .. " (ACTIVE)"
+        elseif objList.Items[i]:match("ACT") then
+            objList.Items[i] = v['name']
+        end
+        i = i+1
+    end
+end
+
+-- Function to convert a signed byte to integer values
+function signed_byte_to_int(value)
+    if bAnd(value,128) &gt; 0 then
+        return value-256
+    else
+        return value
+    end
+end
+
+-- Function to convert a signed short to integer values
+function signed_short_to_int(value)
+    if bAnd(value,32768) &gt; 0 then
+        return value-65536
+    else
+        return value
+    end
+end
+
+-- Function to read shorts
+function readShort(addr, signed)
+    local a = readBytes(addr, 1, false)
+    local b = readBytes(addr+1, 1, false)
+    local retVal = bOr(bShl(b,8),a)
+    if signed and bAnd(128,b) &gt; 0 then
+        return signed_short_to_int(retVal)
+    else
+        return retVal
+    end
+end
+
+-- Reads a single byte, no bullshit
+function readByte(addr)
+   return readBytes(addr, 1, false)
+end
+
+-- Reads a 32-bit Integer
+function readInt32(addr)
+    local a = readShort(addr,false)
+    local b = readShort(addr+2,false)
+    local retVal = bOr(bShl(a,16),b)
+    return retVal
+end
+
+-- Counts the number of elements in a table
+function count(t)
+    if t == nil then
+        return 0
+    end
+
+    local i = 0
+    for _ in pairs(t) do
+        i = i+1
+    end
+    return i
+end
+
+-- Determines whether or not a projectile is active. Thanks, Dammit!
+function proj_active(obj)
+    if obj == nil or selectedObj == nil then return end
+    if readInteger(obj.addr + base) &lt; game.numProj then
+        return false
+    else
+        return true
+    end
+end
+
+-- Iterates over a table in a sorted order
+-- taken from http://stackoverflow.com/questions/15706270/sort-a-table-in-lua
+function spairs(t, order)
+    -- collect the keys
+    local keys = {}
+    for k in pairs(t) do keys[#keys+1] = k end
+
+    -- if order function given, sort by it by passing the table and keys a, b,
+    -- otherwise just sort the keys
+    if order then
+        table.sort(keys, function(a,b) return order(t, a, b) end)
+    else
+        table.sort(keys)
+    end
+
+    -- return the iterator function
+    local i = 0
+    return function()
+        i = i + 1
+        if keys[i] then
+            return keys[i], t[keys[i]]
+        end
+    end
+end
+
+-- Compares the names
+function compare_numeric_names(t, a,b)
+    local x = tonumber(t[a]['name']:match("%d+"))
+    local y = tonumber(t[b]['name']:match("%d+"))
+
+    if t[a]['name']:find("Player") ~= nil and t[b]['name']:find("Player") ~= nil then
+       return x &lt; y
+    elseif t[a]['name']:find("Player") ~= nil then
+        return true
+    elseif t[b]['name']:find("Player") ~= nil then
+        return false
+    else
+        local x = tonumber(t[a]['name']:match("%d+"))
+        local y = tonumber(t[b]['name']:match("%d+"))
+        return x &lt; y
+    end
+end
+
+---------------
+--   Main    --
+---------------
+
+-- Select the correct bases based on the process that was attached
+function onOpenProcess(processid)
+    print("AAAAAAAAAAAAAAGH")
+    -- Kawaks hitbox base
+    game.base = readInteger(emuBase.kawaks)
+    base = readInteger(boxBase.kawaks)
+    print(string.format("game.base = 0x%X", game.base))
+    print(string.format("base = 0x%X", base))
+    -- Game name watchdog timer
+    gameWatchDogTimer = createTimer(nil, false)
+    timer_setInterval(gameWatchDogTimer, 500)
+    timer_onTimer(gameWatchDogTimer, check_name)
+    timer_setEnabled(gameWatchDogTimer, true)
+end
+
+-- Updates the velocity boxes
+function update_data(sender)
+    if getOpenedProcessID() &gt; 0 then
+        local form = sender.getOwner()
+        -- Initialize the list of objects
+        if not dataInitialized then
+            local objList = form.findComponentByName("ObjectListBox")
+            initialize_data(objList)
+        else
+            -- Update the selected object's data
+            check_proj(sender)
+            update_obj_data(selectedObj, form)
+        end
+    end
+end
+
+-- Updates P1's data and puts them in the proper boxes
+function update_obj_data(obj, mainForm)
+    if obj == nil then return end
+    -- Address list &amp; form components
+    local xVelBox = mainForm.findComponentByName("CEEdit1")
+    local yVelBox = mainForm.findComponentByName("CEEdit2")
+    local deltaXVelBox = mainForm.findComponentByName("CEEdit3")
+    local deltaYVelBox = mainForm.findComponentByName("CEEdit4")
+    local xPosBox = mainForm.findComponentByName("CEEdit5")
+    local yPosBox = mainForm.findComponentByName("CEEdit6")
+
+    -- Previous velocities
+    prevVelX = tonumber(xVelBox.Text)
+    prevVelY = tonumber(yVelBox.Text)
+
+    -- Update the velocities
+    --print(string.format("velXInt = 0x%X", game.base + obj.addr + game.velX))
+    local velXInt = signed_byte_to_int(readByte(game.base + obj.addr + game.velX))
+    local velYInt = signed_byte_to_int(readByte(game.base + obj.addr + game.velY))
+    velX = velXInt + (readShort(game.base + obj.addr + game.velXFlt) / 65536.0)
+    velY = - (velYInt + (readShort(game.base + obj.addr + game.velYFlt) / 65536.0))
+
+    -- Update the positions
+    local posXInt = signed_byte_to_int(readByte(game.base + obj.addr + game.posX))
+    local posYInt = signed_byte_to_int(readByte(game.base + obj.addr + game.posY))
+    posX = posXInt + (readShort(game.base + obj.addr + game.posXFlt) / 65536.0)
+    posY = - (posYInt + (readShort(game.base + obj.addr + game.posYFlt) / 65536.0))
+
+    -- Deltas
+    deltaVelX = velX - prevVelX
+    deltaVelY = velY - prevVelY
+
+    -- Update the boxes
+    xVelBox.Text = velX
+    yVelBox.Text = velY
+    if not (velX == prevVelX) then
+       deltaXVelBox.Text = velX - prevVelX
+    end
+    if not (velY == prevVelY) then
+       deltaYVelBox.Text = velY - prevVelY
+    end
+    xPosBox.Text = posX
+    yPosBox.Text = posY
+end
+
+function start_timer(sender)
+    local vt = sender.getOwner().findComponentByName("VelocityTimer")
+    timer_setEnabled(vt, true)
+end
+
+-- Gets the specified hitbox coordinates
+function get_obj_boxes(sender)
+    if selectedObj == nil then return end
+    --print(string.format("headBoxTable = 0x%x", game.base + selectedObj.addr + game.vulnStart))
+    local baseAddr = game.base + selectedObj.addr
+    local hitBoxTable = readInt32(baseAddr + game.hbTable)
+    print(string.format("hitBoxTable = 0x%X", hitBoxTable))
+    --local animPtr = addressList.getMemoryRecordByDescription("P1 Frame Val").getValue()
+
+    -- Attack 1
+    local atk1BoxOffset = readShort(baseAddr + game.hbStart + 0x0)
+    local ab1Off = bShl(bAnd(0x1FFF, atk1BoxOffset), game.shift)
+    print(string.format("atk1BoxOffset = 0x%X", atk1BoxOffset))
+
+    -- Attack 2
+    local atk2BoxOffset = readShort(baseAddr + game.hbStart + 0x2)
+    local ab2Off = bShl(bAnd(0x1FFF, atk2BoxOffset), game.shift)
+    print(string.format("atk2BoxOffset = 0x%X", atk2BoxOffset))
+
+    -- Head box
+    local headBoxOffset = readShort(baseAddr + game.hbStart + 0x4)
+    local hbOff = bShl(bAnd(0x1FFF, headBoxOffset), game.shift)
+    print(string.format("headBoxOffset = 0x%X", headBoxOffset))
+
+    -- Body box
+    local bodyBoxOffset = readShort(baseAddr + game.hbStart + 0x6)
+    local bbOff = bShl(bAnd(0x1FFF, bodyBoxOffset), game.shift)
+    print(string.format("bodyBoxOffset = 0x%X", bodyBoxOffset))
+
+    -- Legs box
+    local legsBoxOffset = readShort(baseAddr + game.hbStart + 0x8)
+    local lbOff = bShl(bAnd(0x1FFF, legsBoxOffset), game.shift)
+    print(string.format("legsBoxOffset = 0x%X", legsBoxOffset))
+
+    -- Extension box
+    local extsBoxOffset = readShort(baseAddr + game.hbStart + 0xA)
+    local ebOff = bShl(bAnd(0x1FFF, extsBoxOffset), game.shift)
+    print(string.format("extsBoxOffset = 0x%X", extsBoxOffset))
+
+    -- Load the damn hitboxes
+    selectedObj[HITBOX_VULNERABILITY] = {}
+    hitbox_load(selectedObj, 0, HITBOX_VULNERABILITY, hitBoxTable + hbOff)
+    hitbox_load(selectedObj, 1, HITBOX_VULNERABILITY, hitBoxTable + bbOff)
+    hitbox_load(selectedObj, 2, HITBOX_VULNERABILITY, hitBoxTable + lbOff)
+    hitbox_load(selectedObj, 3, HITBOX_VULNERABILITY, hitBoxTable + ebOff)
+
+    -- Load the damn attack boxes
+    selectedObj[HITBOX_ATTACK] = {}
+    hitbox_load(selectedObj, 0, HITBOX_ATTACK, hitBoxTable + ab1Off)
+    hitbox_load(selectedObj, 1, HITBOX_ATTACK, hitBoxTable + ab2Off)
+
+    -- Copy them to clipboard
+    local clsn2 = convert_to_air(selectedObj, HITBOX_VULNERABILITY)
+    local clsn1 = convert_to_air(selectedObj, HITBOX_ATTACK)
+
+    if clsn1 == "" then
+        writeToClipboard(clsn2)
+    else
+        writeToClipboard(clsn2 .. "\n" .. clsn1)
+    end
+end
+
+-- Converts hitboxes to .AIR syntax
+function convert_to_air(obj, type)
+    local boxes = obj[type]
+    local clsnBase = ""
+    local clsnStr = ""
+    local clsnCount = count(boxes)
+
+    -- If there are no CLSNs, return an empty string
+    if clsnCount == 0 then
+        return ""
+    end
+
+    if type == HITBOX_VULNERABILITY then
+        clsnBase = "Clsn2"
+    else
+        clsnBase = "Clsn1"
+    end
+
+    clsnsStr = ""
+    boxNo = 0
+    for i=0,clsnCount-1 do
+        local box = boxes[i]
+        if box ~= nil then
+            local coords = ""
+            if box.left == 0 and box.top == 0 and box.right == 0 and box.bottom == 0 then
+                clsnCount = clsnCount -1
+            else
+                coords = string.format("%d,%d,%d,%d", box.left, box.top, box.right, box.bottom)
+                clsnsStr = clsnsStr .. string.format("\n  %s[%d] = ", clsnBase, boxNo) .. coords
+                boxNo = boxNo + 1
+            end
+        end
+    end
+
+    if clsnCount == 0 or clsnsStr == "" then
+        return ""
+    else
+        clsnStr = clsnBase .. ": " .. clsnCount
+        return clsnStr .. clsnsStr
+    end
+end
+
+-- Swaps 16-bit words.
+function word_swap(input)
+    local front = bAnd(input, 0xFFFF)
+    local back = bAnd(input, 0xFFFF0000)
+    local newBack = bShl(front, 16)
+    local newFront = bShr(back, 16)
+    return bOr(newFront, newBack)
+end
+
+function hitbox_load(obj, i, type, addr)
+    local addrBase = base + addr
+    print(string.format("base = 0x%X, addr = 0x%X, addrBase = 0x%X", base, addr, addrBase))
+    local hval    = readShort(addrBase + 0, true)
+	local vval    = readShort(addrBase + 4, true)
+	local hrad    = readShort(addrBase + 2, true)
+	local vrad    = readShort(addrBase + 6, true)
+    local debug = string.format("hval = 0x%X, vval = 0x%X, hrad = 0x%X, vrad = 0x%X", hval,vval,hrad,vrad)
+    --print(string.format("addr = 0x%X", addr))
+    --print(string.format("addrDec = 0x%X", tonumber(addrDec) + 2))
+    print(debug)
+
+	local left   = -(hval + hrad)
+	local top    = vval - vrad
+	local right  = -(hval - hrad)
+	local bottom = vval + vrad
+
+	if type == HITBOX_VULNERABILITY then
+		obj[HITBOX_VULNERABILITY][i] = {
+			left   = left,
+			right  = right,
+			bottom = bottom,
+			top    = top,
+			hval   = hval,
+			vval   = vval,
+			type   = type
+		}
+	else
+		obj[type] = {
+			left   = left,
+			right  = right,
+			bottom = bottom,
+			top    = top,
+			hval   = hval,
+			vval   = vval,
+			type   = type
+		}
+	end
+end
+
+-- Populate the listbox
+function initialize_data(listbox)
+    dataInitialized = true
+    local listItems = {}
+    listbox.items.clear()
+    objects = {player1, player2}
+    -- Allocate the object list with the number of projectiles
+    for i=0,game.numProj do
+        local n = "Projectile " .. i
+        objects[i+3] = {name = string.format("Projectile %d", i),
+                        addr = game.projStart+(game.projOffset*i)
+    }
+    end
+    for k,v in spairs(objects, compare_numeric_names) do
+        listbox.items.add(objects[k]['name'])
+    end
+    selectedObj = objects[0]
+end
+
+function set_selected_obj(sender, user)
+    for _,v in pairs(objects) do
+        if v['name'] == sender.Items[sender.getItemIndex()] then
+            selectedObj = v
+            --print(string.format("selectedObj.addr = 0x%X", selectedObj.addr))
+            break
+        end
+    end
+end
+</LuaScript>
+</CheatTable>
