@@ -24,3 +24,12 @@ A: I have no idea but it probably has to deal with the D3D hook; hopefully I can
 Q: Why does it not work on my PCSX2?
 
 A: At the moment, it is only compatible with PCSX2 r5875. This is because this is the version I've been using for a long time, and breakpoints change in later versions. I may update it soon for the latest.
+
+## MvC2
+Q: What game versions does it work on?
+
+A: At the moment, I have only tested on NTSC-U.
+
+Q: What's with the attack box on all basic animations?
+
+A: That is the normal throw box. For some reason, it's always active (probably so that it's always ready to detect a throw in a fast-paced game).
