@@ -9,7 +9,7 @@ This repository contains various scripts made for CheatEngine, mostly to grab fi
 5. Select the object you wish to observe.
 6. You should now be able to view hitboxes and other data for the selected object.
 
-All data in the window is presented in 320p (M.U.G.E.N standard). To view raw data, refer to the table.
+All data in the window is presented in 240p (M.U.G.E.N standard). To view raw data, refer to the table.
 
 ### Caddie Machine Mode
 Caddie Machine logs all animation data in M.U.G.E.N's .AIR format as the game plays, with the in-game sprite numbers used for sprite index values. So for instance, if the in-game sprite number is 326, then the corresponding M.U.G.E.N SFF value would be Group 0, SpriteNo 326 (0,326).
@@ -45,6 +45,8 @@ Q: Why does it not work on my PCSX2?
 A: At the moment, it is only compatible with PCSX2 r5875. This is because this is the version I've been using for a long time, and breakpoints change in later versions. I may update it soon for the latest.
 
 ## MvC2
+
+### FAQ
 Q: What game versions does it work on?
 
 A: At the moment, I have only tested on NTSC-U.
