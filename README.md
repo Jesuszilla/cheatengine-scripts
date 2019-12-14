@@ -36,9 +36,9 @@ Q: Why does it slow down at the start?
 
 A: It's looking for throw breakpoints. Throw the opponent until the Memory Viewer pops up and it should stop. This is important for getting throw hitboxes.
 
-Q: Why does it crash PCSX2 after running for a while?
+Q: Why don't I see any hitboxes?
 
-A: I have no idea but it probably has to deal with the D3D hook; hopefully I can fix it. If you think you can fix it, feel free to submit a pull request!
+A: You need to have your PCSX2 render settings set to DirectX11 Hardware or DirectX11 Software. This uses Direct3D in order to show hitboxes, so DirectX is a requirement.
 
 Q: Why does it not work on my PCSX2?
 
