@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="26">
+<CheatTable CheatEngineTableVersion="31">
   <Forms>
     <MainWindow Class="TCEForm" Encoding="Ascii85">m6c6z):ZsvouqA(W/^G25+)1KN!$;OwcCN*nyqZ2([YAEohr96t-H+QVs}4:2VVkl.d;zM#DOn=.3MF=Hf.?Mmn444_Nna*KeoT;063lIj[%k.O(VO5-#_:GF;(d2p?lwj=NBKlBRm;(ZK]Mv[0^v?DR%i-J63fY]W#bIdf4m2tLNS3L9KcSIjq^$@U#pfV8iw;B0LkY.(v*f;5l3332]91Xuv:;7)ei=.f)1$%/#ZNCa=t7tAI{Z2EDQ7pD$vzpCDy3W43z/,Xp3ME42p]!Lms53oMYlQ;-Q;^8;Dz^w^Z5AO@!e!+JlB9k=h@0Wbtj3l5NHB:49+H4,T/K{4_]Q;fb,MDeWJL!K4OitNz9kf]lS*#_Hi:MuGW0gqhF[4t+Ly-c,p:gBlfG2SESwuv]0a^)3^bi,%@j=qP4m(1UoiYY!?h;QdPSTWg@n)X{3L_HWfizX_1sY(zVBzbw7/wd^!bhbV-H7Rsw4xOQ?cSo(DQMnBDKNhhrMfD{9,TBt2WT?H}kgz[/7jK8Mb.Y_cmAjS5olE4F0@gGbu6,iQ$O}(DU))*{YJZby7uRY7Q.0XFoKsSaCd3ER[w;,IA4Te}l[U,rEDc-H@y)poBSIO,L#DThIFyDLy2ZkwKF60R$ZedwnVEhh],TzKx1IX6GrzJ.^aMv,b;Gg7DkH?EbTH].:nZ1I!Uv!nt{kX;9JZDC1Wj78pZS-A[XjASaCDi#fUPzW:?LH,0)%U{2/e,lc)SMyxuJQkh?{zkN,WEoMrcM6cBX8c1-Ow0:!?Q5(4B1*vBzk5Awn^b8?(U.c!id)74]mNHd{MA=3Y{%q{NumJ*Cg.Dq?q/A=CBFr5[O{Cb**iLO2Sppr?7vY(;R7eHU]n7Z1205+HRhGLkC?QFDI*</MainWindow>
   </Forms>
@@ -1276,7 +1276,7 @@ end
 -- Gets the pushbox data
 function get_obj_push(sender)
     local baseAddr = game.base + selectedObj.addr
-    local pushBoxTable = readInteger(baseAddr + game.vulnStart + 0x10 or 0xC and sfa3Mode)
+    local pushBoxTable = readInteger(baseAddr + game.vulnStart + 0x10 or sfa3Mode and 0xC)
 
     -- Push box
     local pushBoxOffset = readByte(baseAddr + game.offset + 0x96)
