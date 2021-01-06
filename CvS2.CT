@@ -180,7 +180,7 @@
           <ID>93</ID>
           <Description>"P1 Anim"</Description>
           <ShowAsHex>1</ShowAsHex>
-          <VariableType>4 Bytes</VariableType>
+          <VariableType>2 Bytes</VariableType>
           <Address>20481838</Address>
         </CheatEntry>
         <CheatEntry>
@@ -272,6 +272,15 @@
           <ShowAsHex>1</ShowAsHex>
           <VariableType>4 Bytes</VariableType>
           <Address>20342FC0</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>505</ID>
+          <Description>"P1 Atck Box Offset (CFJ, PAL)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>20342F08</Address>
+          <Offsets>
+            <Offset>20000009</Offset>
+          </Offsets>
         </CheatEntry>
         <CheatEntry>
           <ID>89</ID>
@@ -1388,14 +1397,14 @@
       <Address>203E4CB0</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>309</ID>
+      <ID>504</ID>
       <Description>"Game Region"</Description>
       <VariableType>String</VariableType>
       <Length>4</Length>
       <Unicode>0</Unicode>
       <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
-      <Address>"pcsx2-r5875.exe"+1F882CB</Address>
+      <Address>pcsx2.exe+2C18A83</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>177</ID>
@@ -2223,6 +2232,50 @@
       <ByteLength>23</ByteLength>
       <Address>24B4688F</Address>
     </CheatEntry>
+    <CheatEntry>
+      <ID>499</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>28</ByteLength>
+      <Address>3014811C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>500</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>32</ByteLength>
+      <Address>30147C4E</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>501</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>32</ByteLength>
+      <Address>301482D9</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>502</ID>
+      <Description>"No description"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>pcsx2.exe</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>503</ID>
+      <Description>"No description"</Description>
+      <VariableType>String</VariableType>
+      <Length>4</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>00DF0000</Address>
+      <Offsets>
+        <Offset>1F882CB</Offset>
+      </Offsets>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
@@ -2314,19 +2367,21 @@ local hitboxForm
 -- Variables --
 ---------------
 aalist = getAutoAttachList()
-stringlist_add(aalist,"pcsx2-r5875.exe"); -- For compatibility ONLY with r5875
-stringlist_add(aalist,"pcsx2.exe")
+stringlist_add(aalist,"pcsx2-r5875.exe") -- For compatibility ONLY with r5875
+stringlist_add(aalist,"pcsx2.exe")       -- PCSX2 1.5.0 dev
 stringlist_add(aalist,"demul.exe")
 --stringlist_add(aalist,"pcsx2.exe");
 addressList = getAddressList()
 base = 0
 emuBase = {
-    pcsx2 = 0x20480000,    -- PCSX2 r5875
-    demul = 0x2C34D220     -- DEmul 0.57
+    r5875 = 0x20480000,    -- PCSX2 r5875
+    demul = 0x2C34D220,    -- DEmul 0.57
+    pcsx2 = 0x20480000     -- PCSX2 1.5.0 dev
 }
 boxBase = {
-    pcsx2 = 0x20000000,    -- PCSX2 r5875
-    demul = 0x2C34EB1C     -- DEmul 0.57
+    r5875 = 0x20000000,    -- PCSX2 r5875
+    demul = 0x2C34EB1C,    -- DEmul 0.57
+    pcsx2 = 0x20000000     -- PCSX2 1.5.0 dev
 }
 game = {
     numProj     = 32,
@@ -2369,7 +2424,7 @@ end
 
 ---------------
 -- Functions --
----------------readByte(202CED23)
+---------------
 -- Deep Copy
 function deepcopy(orig)
     local orig_type = type(orig)
@@ -2466,51 +2521,47 @@ function check_name(sender)
 
     -- Game detect
     if cvs2Name:match("CAPCOM VS. SNK 2") and (mode ~= CVS2_US or not dataInitialized) then
-        --print("WHUT")
-        mode = CVS2_US
-        game.base = 0x20480000
-        player2.addr = 0x1D30
-        game.projStart = 0x2300
-        dataInitialized = false
-        offsetCFJ = 0
+      mode = CVS2_US
+      game.base = 0x20480000
+      player2.addr = 0x1D30
+      game.projStart = 0x2300
+      dataInitialized = false
+      offsetCFJ = 0
     elseif cvs2NameJP:match("CAPCOM VS. SNK 2 MILLIONAIRE FIGHTING 2001") and (mode ~= CVS2_JP or not dataInitialized) then
-        --print("STONE COLD STEVE AUSTIN")
-        mode = CVS2_JP
-        game.base = 0x20483BC0
-        player2.addr = 0x1D30
-        game.projStart = 0x2300
-        dataInitialized = false
-        offsetCFJ = 0
+      mode = CVS2_JP
+      game.base = 0x20483BC0
+      player2.addr = 0x1D30
+      game.projStart = 0x2300
+      dataInitialized = false
+      offsetCFJ = 0
     elseif cfjName:match("CFJ") and mode &lt; CFJ_US then
-        --print("HAAAH")
-        mode = (region:match("PAL") and CFJ_EU) or CFJ_US
-        game.base = (mode == CFJ_EU and 0x203416D0) or 0x2033F4D0
-        game.stageID = 0x257B8
-        game.cameraX = 0x1CB06
-        player2.addr = 0x1D20
-        game.projStart = 0x2310
-        dataInitialized = false
-        offsetCFJ = 12
+      mode = (region:match("PAL") and CFJ_EU) or CFJ_US
+      game.base = (mode == CFJ_EU and 0x203416D0) or 0x2033F4D0
+      game.stageID = 0x257B8
+      game.cameraX = 0x1CB06
+      player2.addr = 0x1D20
+      game.projStart = 0x2310
+      dataInitialized = false
+      offsetCFJ = 12
     else
-        --print("THAT'S NOT COOL MAN")
-        mode = -1
-        dataInitialized = false
+      mode = -1
+      dataInitialized = false
     end
 end
 
 -- Proj watchdog timer tick
 function check_proj(mainForm)
-    local objList = mainForm.findComponentByName("ObjectListBox")
-    if objList == nil then return end
-    local i=0
-    for _,v in spairs(objects, compare_numeric_names) do
-        if v['name']:match("Proj") and isActive(v) == true then
-            objList.Items[i] = v['name'] .. " (ACTIVE)"
-        elseif objList.Items[i]:match("ACT") then
-            objList.Items[i] = v['name']
-        end
-        i = i+1
+  local objList = mainForm.findComponentByName("ObjectListBox")
+  if objList == nil then return end
+  local i=0
+  for _,v in spairs(objects, compare_numeric_names) do
+    if v['name']:match("Proj") and isActive(v) == true then
+      objList.Items[i] = v['name'] .. " (ACTIVE)"
+    elseif objList.Items[i]:match("ACT") then
+      objList.Items[i] = v['name']
     end
+      i = i+1
+  end
 end
 
 -- Breakpoint watchdog timer tick
@@ -2533,9 +2584,9 @@ function check_breakpoints(sender)
         --aobList = AOBScan(str4, "+W-C")
 
         if mode &gt; CVS2_JP then
-            aobList = AOBScan("01C10F88XXXXXXXX0FBF0199A38001XXXX89158401XXXX833DXXXXXXXXXX0F85", "+W-C")
+            aobList = AOBScan("01C10F88XXXXXXXX0FBF0199A380XXXXXX891584XXXXXX833DXXXXXXXXXX0F85", "+W-C")
         else
-            aobList = AOBScan("01C10F88XXXXXXXX0FBF0199A39001XXXX89159401XXXX833DXXXXXXXXXX0F85", "+W-C")
+            aobList = AOBScan("01C10F88XXXXXXXX0FBF0199A390XXXXXX891594XXXXXX83XXXXXXXXXXXXXXXX", "+W-C")
         end
 
         if aobList ~= nil then
@@ -2673,7 +2724,7 @@ end
 function onOpenProcess(processid)
     -- PCSX2 hitbox base65344
     if getProcessIDFromProcessName("pcsx2-r5875.exe") == processid then
-        base = boxBase.pcsx2
+        base = boxBase.r5875
     elseif getProcessIDFromProcessName("pcsx2.exe") == processid then
         base = boxBase.pcsx2
     -- DEmul hitbox base
@@ -2744,8 +2795,18 @@ function update_obj_data(mainForm)
     local xPosBox = mainForm.findComponentByName("CEEdit5")
     local yPosBox = mainForm.findComponentByName("CEEdit6")
 
-    -- Update the boxes
-    xVelBox.Text = selectedObj.velX
+    -- Update the boxes\
+    local posXScaleTxt = selectedObj.posX
+    if mode &lt; CFJ_US then
+        posXScaleTxt = "*(160.0/179.0)"
+    else
+        posXScaleTxt = "*(5.0/6.0)"
+    end
+    if selectedObj.velX ~= 0 then
+        xVelBox.Text = tostring(selectedObj.velX) .. posXScaleTxt
+    else
+        xVelBox.Text = selectedObj.velX
+    end
     yVelBox.Text = selectedObj.velY
     if selectedObj.prevVelX ~= nil then
         if not (velX == prevVelX) then
@@ -2755,7 +2816,11 @@ function update_obj_data(mainForm)
            deltaYVelBox.Text = selectedObj.velY - selectedObj.prevVelY
         end
     end
-    xPosBox.Text = selectedObj.posX
+    if selectedObj.posX ~= 0 then
+        xPosBox.Text = tostring(selectedObj.posX) .. posXScaleTxt
+    else
+        xPosBox.Text = selectedObj.posX
+    end
     yPosBox.Text = selectedObj.posY
 end
 
@@ -2804,7 +2869,6 @@ function get_obj_data(sender, obj)
     local thrOffsTable = 0x20000000 + readInteger(baseAddr + game.offset + 0x19C)
     local animPtr = readInteger(baseAddr + game.anim)
 
-    --print(string.format("velXInt = 0x%X", game.base + selectedObj.addr + game.velX))
     -- Update the velocities
     if isActive(obj) then
         obj.velXInt = readShort(game.base + obj.addr + game.velX, true)
@@ -2851,15 +2915,14 @@ function get_obj_data(sender, obj)
 
         -- Sprite number
         local spriteNo = readShort(game.base + obj.addr + game.offset + game.sprite)
-        --print(string.format("0x%X", (game.base + obj.addr + game.offset + game.sprite)))
 
         -- Debug
         if debug then
-            print(string.format("boxOffsTable = 0x%X", boxOffsTable))
-            print(string.format("headBoxTable = 0x%X", headBoxTable))
-            print("headBoxOffset = " .. headBoxOffset)
-            print("bodyBoxOffset = " .. bodyBoxOffset)
-            print("legsBoxOffset = " .. legsBoxOffset)
+          print(string.format("boxOffsTable = 0x%X", boxOffsTable))
+          print(string.format("headBoxTable = 0x%X", headBoxTable))
+          print("headBoxOffset = " .. headBoxOffset)
+          print("bodyBoxOffset = " .. bodyBoxOffset)
+          print("legsBoxOffset = " .. legsBoxOffset)
         end
 
         -- Load the damn pushbox
@@ -2874,17 +2937,17 @@ function get_obj_data(sender, obj)
 
         -- Are we on a new frame?
         if get_frames_drawn() ~= currFrame then
-            drawThrow = false
+          drawThrow = false
         end
         -- Load the damn attack box
         if not drawThrow then
-            obj[HITBOX_ATTACK] = {}
-            local atckBoxOffset = animPtr + game.atckID
-            local abOff = readByte(base + atckBoxOffset)
-            if abOff then
-                hitbox_load(obj, 0, HITBOX_ATTACK, atckBoxTable + abOff*0x20)
-            end
-            --hitbox_load(selectedObj, 0, HITBOX_ATTACK, atckBoxTable + readByte(0x203F1FCC)*0x20) -- only works for p1
+          obj[HITBOX_ATTACK] = {}
+          local atckBoxOffset = animPtr + game.atckID
+          local abOff = readByte(base + atckBoxOffset)
+          if abOff then
+            if debug then print("abOff = " .. abOff) end
+            hitbox_load(obj, 0, HITBOX_ATTACK, atckBoxTable + abOff*0x20)
+          end
         end
 
         -- Print them
