@@ -87,7 +87,7 @@
       <ID>122</ID>
       <Description>"P1"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" RealAddress="00000000"/>
+      <LastState Value="" Activated="1" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
@@ -395,6 +395,28 @@
             <Offset>FF8409</Offset>
           </Offsets>
         </CheatEntry>
+        <CheatEntry>
+          <ID>155</ID>
+          <Description>"P1 Vel X (SFA3, PS2)"</Description>
+          <LastState Value="59624" RealAddress="20908442"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>20908442</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>154</ID>
+          <Description>"P1 Vel X Flt (SFA3, PS2)"</Description>
+          <LastState Value="12800" RealAddress="20908440"/>
+          <VariableType>2 Bytes</VariableType>
+          <Address>20908440</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>158</ID>
+          <Description>"P1 Box Offsets (SFA3, PS2)"</Description>
+          <LastState Value="0B030000" RealAddress="209084C8"/>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>209084C8</Address>
+        </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
@@ -590,12 +612,14 @@
     <CheatEntry>
       <ID>62</ID>
       <Description>"No description"</Description>
+      <LastState Value="158" RealAddress="2C600442"/>
       <VariableType>Byte</VariableType>
       <Address>2c600442</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>64</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000" RealAddress="20059A8C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>20059A8C</Address>
@@ -633,6 +657,7 @@
     <CheatEntry>
       <ID>106</ID>
       <Description>"MAME Hitbox offset"</Description>
+      <LastState Value="0100AD000200C201" RealAddress="0BFC35D4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0BFC35D4</Address>
@@ -650,6 +675,7 @@
     <CheatEntry>
       <ID>108</ID>
       <Description>"Kawaks Hitbox Start"</Description>
+      <LastState Value="0000000000000000" RealAddress="02DF85CC"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>02DF85CC</Address>
@@ -657,6 +683,7 @@
     <CheatEntry>
       <ID>110</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000000000000000" RealAddress="02DF85D8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>02DF85D8</Address>
@@ -757,6 +784,7 @@
     <CheatEntry>
       <ID>139</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000050E0000050B" RealAddress="0A389DB4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0A389DB4</Address>
@@ -764,6 +792,7 @@
     <CheatEntry>
       <ID>140</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000038D0000038C" RealAddress="0A38B4B8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0A38B4B8</Address>
@@ -771,6 +800,7 @@
     <CheatEntry>
       <ID>141</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000A4800000A45" RealAddress="0A39042C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0A39042C</Address>
@@ -778,6 +808,7 @@
     <CheatEntry>
       <ID>142</ID>
       <Description>"No description"</Description>
+      <LastState Value="5DE58BFFF7BE37E8" RealAddress="0B0EDDB4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0B0EDDB4</Address>
@@ -785,6 +816,7 @@
     <CheatEntry>
       <ID>143</ID>
       <Description>"No description"</Description>
+      <LastState Value="00000B6800000B65" RealAddress="0A3A186C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0A3A186C</Address>
@@ -792,6 +824,7 @@
     <CheatEntry>
       <ID>144</ID>
       <Description>"No description"</Description>
+      <LastState Value="5DE58BFFF7BE37E8" RealAddress="0B0EDDB4"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0B0EDDB4</Address>
@@ -799,6 +832,7 @@
     <CheatEntry>
       <ID>145</ID>
       <Description>"No description"</Description>
+      <LastState Value="83F0458939048D00" RealAddress="0B0EF4B8"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0B0EF4B8</Address>
@@ -806,6 +840,7 @@
     <CheatEntry>
       <ID>146</ID>
       <Description>"No description"</Description>
+      <LastState Value="708B078B3F8B5633" RealAddress="0B0F442C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0B0F442C</Address>
@@ -813,6 +848,7 @@
     <CheatEntry>
       <ID>147</ID>
       <Description>"No description"</Description>
+      <LastState Value="AC15FFCF8B0C788B" RealAddress="0B10586C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>0B10586C</Address>
@@ -855,6 +891,17 @@
         <Offset>FF82A0</Offset>
       </Offsets>
     </CheatEntry>
+    <CheatEntry>
+      <ID>157</ID>
+      <Description>"PCSX2 Game ID"</Description>
+      <LastState RealAddress="03A0A0E2"/>
+      <VariableType>String</VariableType>
+      <Length>11</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>pcsx2.exe+2C1A0E2</Address>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <LuaScript>-- Prints the data into a form.
@@ -889,18 +936,21 @@ local emuScreen
 -- Variables --
 ---------------
 aalist = getAutoAttachList()
-stringlist_add(aalist,"WinKawaks.exe");
-stringlist_add(aalist,"demul.exe");
+stringlist_add(aalist,"WinKawaks.exe")
+stringlist_add(aalist,"pcsx2.exe")
+stringlist_add(aalist,"demul.exe")
 sfa3Mode = false
 addressList = getAddressList()
 base = 0
 emuBase = {
     kawaks = 0x007466A0,    -- Kawaks 1.62
-    demul  = 0x20000000     -- DEmul 0.57
+    demul  = 0x20000000,    -- DEmul 0.57
+    pcsx2  = 0x20000000     -- PCXS2 1.5.0 dev
 }
 boxBase = {
     kawaks = 0x0074E6E0,    -- Kawaks 1.62
-    demul  = 0x20000000     -- DEmul 0.57
+    demul  = 0x20000000,    -- DEmul 0.57
+    pcsx2  = 0x20000000     -- PCXS2 1.5.0 dev
 }
 game = {
     numProj     = 32,
@@ -939,26 +989,41 @@ function check_name(sender)
     if addressList == nil then return end
     -- Kawaks game detection
     gameName = addressList.getMemoryRecordByDescription("Kawaks Selected Game").getValue()
-    if gameName:match("Street Fighter Alpha 3") or gameName:match("Street Fighter Zero 3") then --and not sfa3Mode then
+    if gameName ~= nil then
+      if gameName:match("Street Fighter Alpha 3") or gameName:match("Street Fighter Zero 3") then --and not sfa3Mode then
         sfa3Mode = true
         game.vulnStart = 0x90
         game.atckStart = 0xA0
         game.offset = 0x34
         game.actkID = 0x09
         if getOpenedProcessID() ~= nil then
-            onOpenProcess(getOpenedProcessID())
+          onOpenProcess(getOpenedProcessID())
         end
-    elseif gameName:match("Vampire Savior") or gameName:match("Vampire Hunter 2") then --and sfa3Mode then
+      elseif gameName:match("Vampire Savior") or gameName:match("Vampire Hunter 2") then --and sfa3Mode then
         sfa3Mode = false
         game.vulnStart = 0x80
         game.atckStart = 0x8C
         game.offset = 0x00
         game.atckId = 0x0A
         if getOpenedProcessID() ~= nil then
-            onOpenProcess(getOpenedProcessID())
+          onOpenProcess(getOpenedProcessID())
         end
-    else
+      else
         sfa3Mode = false
+      end
+    else
+      gameName = addressList.getMemoryRecordByDescription("PCSX2 Game ID").getValue()
+      if gameName:match("SLPM_659.98")
+        sfa3Mode = false
+        game.vulnStart = 0x80
+        game.atckStart = 0x8C
+        game.offset = 0x00
+        game.atckId = 0x0A
+        if getOpenedProcessID() ~= nil then
+          onOpenProcess(getOpenedProcessID())
+        end
+      elseif gameName:match("SLPM_664.09")
+      end
     end
 end
 
