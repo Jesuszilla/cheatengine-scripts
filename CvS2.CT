@@ -28,7 +28,7 @@
     <CheatEntry>
       <ID>164</ID>
       <Description>"Frames Drawn (CvS2)"</Description>
-      <LastState Value="14734" RealAddress="2049D38C"/>
+      <LastState Value="13181" RealAddress="2049D38C"/>
       <VariableType>4 Bytes</VariableType>
       <Address>2049D38C</Address>
     </CheatEntry>
@@ -73,7 +73,7 @@
         <CheatEntry>
           <ID>61</ID>
           <Description>"Proj 1 Active?"</Description>
-          <LastState Value="0007" RealAddress="204823D2"/>
+          <LastState Value="0006" RealAddress="204823D2"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>204823D2</Address>
@@ -81,7 +81,7 @@
         <CheatEntry>
           <ID>19</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="65531" RealAddress="2048265E"/>
+          <LastState Value="0" RealAddress="2048265E"/>
           <VariableType>2 Bytes</VariableType>
           <Address>2048265E</Address>
         </CheatEntry>
@@ -193,56 +193,56 @@
         <CheatEntry>
           <ID>35</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="67" RealAddress="2048235E"/>
+          <LastState Value="112" RealAddress="2048235E"/>
           <VariableType>4 Bytes</VariableType>
           <Address>2048235E</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>34</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="384827528" RealAddress="204824DE"/>
+          <LastState Value="0" RealAddress="204824DE"/>
           <VariableType>4 Bytes</VariableType>
           <Address>204824DE</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>37</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="255852643" RealAddress="204827DE"/>
+          <LastState Value="0" RealAddress="204827DE"/>
           <VariableType>4 Bytes</VariableType>
           <Address>204827DE</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>38</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="331350058" RealAddress="2048295E"/>
+          <LastState Value="0" RealAddress="2048295E"/>
           <VariableType>4 Bytes</VariableType>
           <Address>2048295E</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>39</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="331350064" RealAddress="20482ADE"/>
+          <LastState Value="0" RealAddress="20482ADE"/>
           <VariableType>4 Bytes</VariableType>
           <Address>20482ADE</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>40</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="331350103" RealAddress="20482C5E"/>
+          <LastState Value="0" RealAddress="20482C5E"/>
           <VariableType>4 Bytes</VariableType>
           <Address>20482C5E</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>41</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="331350116" RealAddress="20482DDE"/>
+          <LastState Value="0" RealAddress="20482DDE"/>
           <VariableType>4 Bytes</VariableType>
           <Address>20482DDE</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>42</ID>
           <Description>"P1 Proj Pos X"</Description>
-          <LastState Value="331350116" RealAddress="20482F5E"/>
+          <LastState Value="0" RealAddress="20482F5E"/>
           <VariableType>4 Bytes</VariableType>
           <Address>20482F5E</Address>
         </CheatEntry>
@@ -307,14 +307,14 @@
     <CheatEntry>
       <ID>108</ID>
       <Description>"No description"</Description>
-      <LastState Value="1" RealAddress="204818D3"/>
+      <LastState Value="0" RealAddress="204818D3"/>
       <VariableType>Byte</VariableType>
       <Address>204818D3</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>114</ID>
       <Description>"No description"</Description>
-      <LastState Value="00" RealAddress="204858AC"/>
+      <LastState Value="E0" RealAddress="204858AC"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Byte</VariableType>
       <Address>204858AC</Address>
@@ -329,7 +329,7 @@
         <CheatEntry>
           <ID>166</ID>
           <Description>"Atck Box Offset"</Description>
-          <LastState Value="0A" RealAddress="203F1FCC"/>
+          <LastState Value="00" RealAddress="203F1FCC"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Byte</VariableType>
           <Address>203F1FCC</Address>
@@ -358,14 +358,14 @@
         <CheatEntry>
           <ID>15</ID>
           <Description>"P1 Pos X"</Description>
-          <LastState Value="172" RealAddress="204817BE"/>
+          <LastState Value="145" RealAddress="204817BE"/>
           <VariableType>2 Bytes</VariableType>
           <Address>204817BE</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>20</ID>
           <Description>"P1 Pos X Flt"</Description>
-          <LastState Value="44216" RealAddress="204817BD"/>
+          <LastState Value="37200" RealAddress="204817BD"/>
           <VariableType>2 Bytes</VariableType>
           <Address>204817BD</Address>
         </CheatEntry>
@@ -386,35 +386,35 @@
         <CheatEntry>
           <ID>129</ID>
           <Description>"P1 Vel X"</Description>
-          <LastState Value="2" RealAddress="20481812"/>
+          <LastState Value="65534" RealAddress="20481812"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481812</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>130</ID>
           <Description>"P1 Vel X Flt."</Description>
-          <LastState Value="0" RealAddress="20481810"/>
+          <LastState Value="12288" RealAddress="20481810"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481810</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>65</ID>
           <Description>"P1 Vel Y"</Description>
-          <LastState Value="7" RealAddress="20481816"/>
+          <LastState Value="65532" RealAddress="20481816"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481816</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>66</ID>
           <Description>"P1 Vel Y Flt."</Description>
-          <LastState Value="0" RealAddress="20481814"/>
+          <LastState Value="16384" RealAddress="20481814"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481814</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>86</ID>
           <Description>"P1 Frame Timing"</Description>
-          <LastState Value="4" RealAddress="20481832"/>
+          <LastState Value="6" RealAddress="20481832"/>
           <VariableType>Byte</VariableType>
           <Address>20481832</Address>
         </CheatEntry>
@@ -435,9 +435,17 @@
         <CheatEntry>
           <ID>85</ID>
           <Description>"P1 SpriteNo"</Description>
-          <LastState Value="219" RealAddress="20481834"/>
+          <LastState Value="39" RealAddress="20481834"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481834</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>517</ID>
+          <Description>"P1 Pos X (CFJ, NTSC)"</Description>
+          <LastState Value="4096" RealAddress="20340C8E"/>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>2 Bytes</VariableType>
+          <Address>20340C8E</Address>
         </CheatEntry>
         <CheatEntry>
           <ID>310</ID>
@@ -477,7 +485,7 @@
         <CheatEntry>
           <ID>355</ID>
           <Description>"Lvl.2 Juggle Timer"</Description>
-          <LastState Value="180" RealAddress="20481F5A"/>
+          <LastState Value="0" RealAddress="20481F5A"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481F5A</Address>
         </CheatEntry>
@@ -491,7 +499,7 @@
         <CheatEntry>
           <ID>93</ID>
           <Description>"P1 Anim"</Description>
-          <LastState Value="0CB0" RealAddress="20481838"/>
+          <LastState Value="BE8C" RealAddress="20481838"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>2 Bytes</VariableType>
           <Address>20481838</Address>
@@ -547,7 +555,7 @@
         <CheatEntry>
           <ID>92</ID>
           <Description>"P1 Vuln Box Table Ptr"</Description>
-          <LastState Value="00945B38" RealAddress="204818F8"/>
+          <LastState Value="00945A20" RealAddress="204818F8"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>4 Bytes</VariableType>
           <Address>204818F8</Address>
@@ -570,7 +578,7 @@
         <CheatEntry>
           <ID>107</ID>
           <Description>"No description"</Description>
-          <LastState Value="00000105" RealAddress="20481786"/>
+          <LastState Value="00000100" RealAddress="20481786"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>4 Bytes</VariableType>
           <Address>20481786</Address>
@@ -578,7 +586,7 @@
         <CheatEntry>
           <ID>109</ID>
           <Description>"No description"</Description>
-          <LastState Value="000A0201" RealAddress="203F1FCA"/>
+          <LastState Value="00000001" RealAddress="203F1FCA"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>4 Bytes</VariableType>
           <Address>203F1FCA</Address>
@@ -703,7 +711,7 @@
         <CheatEntry>
           <ID>124</ID>
           <Description>"P1 Hitbox Offsets"</Description>
-          <LastState Value="01 07 05 01 01" RealAddress="20945B38"/>
+          <LastState Value="01 01 01 01 01" RealAddress="20945A20"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>5</ByteLength>
@@ -767,7 +775,7 @@
             <CheatEntry>
               <ID>416</ID>
               <Description>"DP Buffer (Tiger Uppercut)"</Description>
-              <LastState Value="4" RealAddress="20481A43"/>
+              <LastState Value="6" RealAddress="20481A43"/>
               <VariableType>Byte</VariableType>
               <Address>20481A43</Address>
             </CheatEntry>
@@ -889,7 +897,7 @@
         <CheatEntry>
           <ID>121</ID>
           <Description>"PLHIT"</Description>
-          <LastState Value="19 F0 91 03 19 F0 91 03" RealAddress="2C85A000"/>
+          <LastState Value="00 00 00 00 00 00 00 00" RealAddress="2C85A000"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>Array of byte</VariableType>
           <ByteLength>8</ByteLength>
@@ -922,7 +930,7 @@
         <CheatEntry>
           <ID>68</ID>
           <Description>"P2 Life"</Description>
-          <LastState Value="12900" RealAddress="20481E94"/>
+          <LastState Value="14400" RealAddress="20481E94"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481E94</Address>
         </CheatEntry>
@@ -943,7 +951,7 @@
         <CheatEntry>
           <ID>70</ID>
           <Description>"P2 Pos X Flt."</Description>
-          <LastState Value="59136" RealAddress="20481D8C"/>
+          <LastState Value="0" RealAddress="20481D8C"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481D8C</Address>
         </CheatEntry>
@@ -992,7 +1000,7 @@
         <CheatEntry>
           <ID>404</ID>
           <Description>"P2 Frame Timing"</Description>
-          <LastState Value="6" RealAddress="20481E02"/>
+          <LastState Value="3" RealAddress="20481E02"/>
           <VariableType>Byte</VariableType>
           <Address>20481E02</Address>
         </CheatEntry>
@@ -1007,7 +1015,7 @@
         <CheatEntry>
           <ID>321</ID>
           <Description>"P2 Dizzy Time"</Description>
-          <LastState Value="162" RealAddress="20481F4C"/>
+          <LastState Value="0" RealAddress="20481F4C"/>
           <VariableType>2 Bytes</VariableType>
           <Address>20481F4C</Address>
         </CheatEntry>
@@ -1167,7 +1175,7 @@
     <CheatEntry>
       <ID>323</ID>
       <Description>"P1 Proj Vel X"</Description>
-      <LastState Value="16256" RealAddress="20482982"/>
+      <LastState Value="0" RealAddress="20482982"/>
       <VariableType>2 Bytes</VariableType>
       <Address>20482982</Address>
     </CheatEntry>
@@ -1195,21 +1203,21 @@
     <CheatEntry>
       <ID>13</ID>
       <Description>"No description"</Description>
-      <LastState Value="3" RealAddress="0BC9B86C"/>
+      <LastState Value="256" RealAddress="0BC9B86C"/>
       <VariableType>2 Bytes</VariableType>
       <Address>0BC9B86C</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>16</ID>
       <Description>"P1 Cur Proj Pos X"</Description>
-      <LastState Value="274" RealAddress="20481F64"/>
+      <LastState Value="0" RealAddress="20481F64"/>
       <VariableType>2 Bytes</VariableType>
       <Address>20481F64</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>303</ID>
       <Description>"P1 Cur Proj Pos X Flt"</Description>
-      <LastState Value="353" RealAddress="20481F66"/>
+      <LastState Value="0" RealAddress="20481F66"/>
       <VariableType>2 Bytes</VariableType>
       <Address>20481F66</Address>
     </CheatEntry>
@@ -1230,7 +1238,7 @@
     <CheatEntry>
       <ID>80</ID>
       <Description>"No description"</Description>
-      <LastState Value="0005" RealAddress="204819BC"/>
+      <LastState Value="0000" RealAddress="204819BC"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>204819BC</Address>
@@ -1259,7 +1267,7 @@
     <CheatEntry>
       <ID>320</ID>
       <Description>"No description"</Description>
-      <LastState Value="7" RealAddress="20485C7C"/>
+      <LastState Value="0" RealAddress="20485C7C"/>
       <VariableType>2 Bytes</VariableType>
       <Address>20485C7C</Address>
     </CheatEntry>
@@ -1322,7 +1330,6 @@
     <CheatEntry>
       <ID>346</ID>
       <Description>"No description"</Description>
-      <LastState Value="0000" RealAddress="00D030C0"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>00D030C0</Address>
@@ -1365,14 +1372,14 @@
     <CheatEntry>
       <ID>357</ID>
       <Description>"No description"</Description>
-      <LastState Value="30720" RealAddress="20481EF6"/>
+      <LastState Value="0" RealAddress="20481EF6"/>
       <VariableType>2 Bytes</VariableType>
       <Address>20481EF6</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>358</ID>
       <Description>"No description"</Description>
-      <LastState Value="19" RealAddress="2048833C"/>
+      <LastState Value="0" RealAddress="2048833C"/>
       <VariableType>2 Bytes</VariableType>
       <Address>2048833C</Address>
     </CheatEntry>
@@ -1386,7 +1393,7 @@
     <CheatEntry>
       <ID>361</ID>
       <Description>"No description"</Description>
-      <LastState Value="6" RealAddress="20481E02"/>
+      <LastState Value="3" RealAddress="20481E02"/>
       <VariableType>2 Bytes</VariableType>
       <Address>20481E02</Address>
     </CheatEntry>
@@ -1496,7 +1503,7 @@
     <CheatEntry>
       <ID>110</ID>
       <Description>"No description"</Description>
-      <LastState Value="0001A2F0" RealAddress="2048197E"/>
+      <LastState Value="0000D2F0" RealAddress="2048197E"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>4 Bytes</VariableType>
       <Address>2048197E</Address>
@@ -1557,7 +1564,7 @@
     <CheatEntry>
       <ID>339</ID>
       <Description>"No description"</Description>
-      <LastState Value="00DF0000" RealAddress="0750EF34"/>
+      <LastState Value="00007900" RealAddress="0750EF34"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>4 Bytes</VariableType>
       <Address>0750EF34</Address>
@@ -1613,7 +1620,7 @@
     <CheatEntry>
       <ID>352</ID>
       <Description>"Game Region (enum)"</Description>
-      <LastState Value="0" RealAddress="07B7C344"/>
+      <LastState Value="35318421" RealAddress="07B7C344"/>
       <VariableType>4 Bytes</VariableType>
       <Address>07B7C344</Address>
     </CheatEntry>
@@ -1626,7 +1633,7 @@
     <CheatEntry>
       <ID>84</ID>
       <Description>"No description"</Description>
-      <LastState Value="0000000000010401" RealAddress="20481A42"/>
+      <LastState Value="0000000000000600" RealAddress="20481A42"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>20481A42</Address>
@@ -1642,6 +1649,7 @@
     <CheatEntry>
       <ID>104</ID>
       <Description>"No description"</Description>
+      <LastState Value="0000000000000000" RealAddress="08A7FC90"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>8 Bytes</VariableType>
       <Address>08A7FC90</Address>
@@ -1747,7 +1755,7 @@
     <CheatEntry>
       <ID>328</ID>
       <Description>"No description"</Description>
-      <LastState Value="01 83 C0 02 A3 F0 89" RealAddress="3018DADC"/>
+      <LastState Value="00 00 00 00 00 00 00" RealAddress="3018DADC"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>7</ByteLength>
@@ -1756,7 +1764,7 @@
     <CheatEntry>
       <ID>314</ID>
       <Description>"No description"</Description>
-      <LastState Value="75 D3 88 11 BA" RealAddress="3013CCD7"/>
+      <LastState Value="00 00 00 00 00" RealAddress="3013CCD7"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>5</ByteLength>
@@ -1765,7 +1773,7 @@
     <CheatEntry>
       <ID>315</ID>
       <Description>"No description"</Description>
-      <LastState Value="01 0F 88 F4 0F 00 00" RealAddress="301CF7EB"/>
+      <LastState Value="00 00 00 00 00 00 00" RealAddress="301CF7EB"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>7</ByteLength>
@@ -1792,7 +1800,7 @@
     <CheatEntry>
       <ID>365</ID>
       <Description>"No description"</Description>
-      <LastState Value="0E 00 07 00 02 00 00 00 00 7C 5E 46 FF 00 00 00" RealAddress="2049CFE0"/>
+      <LastState Value="18 00 02 00 3E 00 00 00 00 30 14 46 FF 00 00 00" RealAddress="2049CFE0"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>16</ByteLength>
@@ -1811,7 +1819,7 @@
     <CheatEntry>
       <ID>366</ID>
       <Description>"No description"</Description>
-      <LastState Value="1000011000111001110101001010" RealAddress="2049CABC"/>
+      <LastState Value="110101101001101100001001001100" RealAddress="2049CABC"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Binary</VariableType>
       <BitStart>0</BitStart>
@@ -1845,7 +1853,7 @@
     <CheatEntry>
       <ID>371</ID>
       <Description>"P1 Palette"</Description>
-      <LastState Value="00 B5 FF 10 FF 4C F6 66 E1 A1 BC AE B5 6C AD 09 A1 A6 94 43 88 FF FF 19 DF 10 BA 4A 9D 63" RealAddress="2049CAA1"/>
+      <LastState Value="00 B6 FF 51 FF EE F6 49 EA E4 D5 70 CE 4E CA 0B C2 E9 BD A6 B5 FF FF 59 EB B1 D2 4C C2 A6" RealAddress="2049CAA1"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>30</ByteLength>
@@ -1854,7 +1862,7 @@
     <CheatEntry>
       <ID>373</ID>
       <Description>"No description"</Description>
-      <LastState Value="F0 89 E5 01 83 C0" RealAddress="3021BF45"/>
+      <LastState Value="00 00 00 00 00 00" RealAddress="3021BF45"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>6</ByteLength>
@@ -1987,7 +1995,7 @@
     <CheatEntry>
       <ID>388</ID>
       <Description>"No description"</Description>
-      <LastState Value="0F01" RealAddress="301530BA"/>
+      <LastState Value="0000" RealAddress="301530BA"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>2 Bytes</VariableType>
       <Address>301530BA</Address>
@@ -2058,7 +2066,7 @@
     <CheatEntry>
       <ID>402</ID>
       <Description>"P1 LP Buffer"</Description>
-      <LastState Value="00 00 00 00 01 00 00 00 00 00 00 01 00 00 20 21 00 00 00 00 00 00 00 00 00" RealAddress="2048192B"/>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00 00 01 00 00 20 21 00 00 00 00 00 00 00 00 00" RealAddress="2048192B"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>25</ByteLength>
@@ -2116,7 +2124,7 @@
     <CheatEntry>
       <ID>421</ID>
       <Description>"trying to find Camera Pos Y"</Description>
-      <LastState Value="80 01 00 00 00 00 00 00 02 00 02 00 00 00 00 00" RealAddress="2049CFF0"/>
+      <LastState Value="80 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00" RealAddress="2049CFF0"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>16</ByteLength>
@@ -2556,7 +2564,7 @@
     <CheatEntry>
       <ID>496</ID>
       <Description>"No description"</Description>
-      <LastState Value="254" RealAddress="20F0ECD8"/>
+      <LastState Value="5" RealAddress="20F0ECD8"/>
       <VariableType>Byte</VariableType>
       <Address>20F0ECD8</Address>
     </CheatEntry>
@@ -2580,7 +2588,7 @@
     <CheatEntry>
       <ID>499</ID>
       <Description>"No description"</Description>
-      <LastState Value="60 86 E5 01 C7 05 64 86 E5 01 00 00 00 00 83 3D 60 86 E5 01 00 75 0D 83 3D 64 86 E5" RealAddress="3014811C"/>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" RealAddress="3014811C"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>28</ByteLength>
@@ -2589,7 +2597,7 @@
     <CheatEntry>
       <ID>500</ID>
       <Description>"No description"</Description>
-      <LastState Value="01 00 00 00 A1 F0 89 E5 01 83 C0 0A A3 F0 89 E5 01 2B 05 DC 84 E5 01 0F 88 9A 73 7D D3 E9 90 73" RealAddress="30147C4E"/>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" RealAddress="30147C4E"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>32</ByteLength>
@@ -2598,7 +2606,7 @@
     <CheatEntry>
       <ID>501</ID>
       <Description>"No description"</Description>
-      <LastState Value="C0 02 A3 F0 89 E5 01 2B 05 DC 84 E5 01 0F 88 2D 00 00 00 E9 0F 6D 7D D3 C7 05 D8 88 E5 01 F8 73" RealAddress="301482D9"/>
+      <LastState Value="00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00" RealAddress="301482D9"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>Array of byte</VariableType>
       <ByteLength>32</ByteLength>
@@ -2637,11 +2645,26 @@
     <CheatEntry>
       <ID>511</ID>
       <Description>"No description"</Description>
-      <LastState Value="128 14 0 226 128 14 0 240 128 14 0 242 128 14 0 64 129 14 0 66 129 14" RealAddress="2E876BD1"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Array of byte</VariableType>
       <ByteLength>22</ByteLength>
       <Address>2E876BD1</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>518</ID>
+      <Description>"60FPS Timer (CvS2, NTSC)"</Description>
+      <LastState Value="39423" RealAddress="01E447A4"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>01E447A4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>519</ID>
+      <Description>"60FPS Timer"</Description>
+      <LastState Value="3" RealAddress="03926134"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>pcsx2.exe+2C06134</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
@@ -2655,6 +2678,8 @@
 local HITBOX_VULNERABILITY  = 0
 local HITBOX_ATTACK         = 1
 local HITBOX_PUSH           = 2
+local SPRITE_NO             = 3
+local FRAME_COUNT           = 4
 
 local CVS2_DC               = 0
 local CVS2_US               = 1
@@ -2697,17 +2722,14 @@ stageOffset = 0
 
 local selectedObj = player1  -- default
 local lastObj = nil
-local lastClsn1 = ""
-local lastClsn2 = ""
-local lastSprite = -1
-local lastFrame = -1
+local lastFrame = 0
 local dataInitialized = false
 local drawThrow = false
 local scaleCLSN = false
 local logAnimations = false
 local mode = CVS2_US
 local currFrame = 0
-local currFrameCount = -1
+local currFrame60 = 0
 bpList = {}
 offsetCFJ = 0
 
@@ -2716,6 +2738,9 @@ logFile = nil
 
 -- Breakpoint watchdog timer
 bpWatchDogTimer = nil
+
+-- 60FPS update timer (you'll cowards don't even smoke crack)
+crackHeadTimer = nil
 
 -- Thread terminate variable
 terminateThread = false
@@ -2779,6 +2804,7 @@ game = {
     cameraX     = 0x1CFA6,
     cameraY     = 0x1CFAA,
     flip        = 0xC4,
+    scaleX      = 0xAE,
     stageID     = -0x8DA9C
 }
 
@@ -2920,6 +2946,17 @@ function check_name(sender)
     else
       mode = -1
       dataInitialized = false
+    end
+end
+
+function increment_frame_count(sender)
+    local _currFrame60 = currFrame60
+    if _currFrame60 ~= lastFrame then
+        if selectedObj ~= nil then
+            local currFrameCount = (selectedObj[FRAME_COUNT] or 0) + 1
+            selectedObj[FRAME_COUNT] = currFrameCount
+        end
+        lastFrame = _currFrame60
     end
 end
 
@@ -3134,7 +3171,7 @@ end
 -- Updates the velocity boxes
 function update_data(Thread, form)
     if getOpenedProcessID() &gt; 0 then
-       form.findComponentByName("Start"):setEnabled(false)
+        synchronize(timer_setEnabled, form.findComponentByName("Start"), false)
         while not terminateThread do
             if form == nil then return end
             -- Update the selected object's data if everything's been initialized.
@@ -3144,14 +3181,19 @@ function update_data(Thread, form)
                 check_name(form)
                 local objList = form.findComponentByName("ObjectListBox")
                 initialize_data(objList)
+                crackHeadTimer = createTimer(form)
+                timer_setInterval(crackHeadTimer, 16)
             else
                 synchronize(check_proj, form)
                 synchronize(update_obj_data, form)
                 display_hitboxes()
             end
-            nextFrame = get_frames_drawn()
-            while nextFrame == currFrame do nextFrame = get_frames_drawn() end
-            currFrame = nextFrame
+            nextFrame = get_frames_drawn_60()
+            while nextFrame == currFrame60 do nextFrame = get_frames_drawn_60() end
+            currFrame60 = nextFrame
+            if logAnimations and crackHeadTimer ~= nil and crackHeadTimer.OnTimer == nil then
+               synchronize(timer_onTimer, crackHeadTimer, increment_frame_count)
+            end
         end
     end
 end
@@ -3286,6 +3328,7 @@ function get_obj_data(sender, obj)
 
         -- Sprite number
         local spriteNo = readShort(game.base + obj.addr + game.sprite)
+        obj[SPRITE_NO] = spriteNo
 
         -- Debug
         if debugPrint then
@@ -3344,41 +3387,36 @@ function get_obj_data(sender, obj)
 
         -- Logging animations?
         if logAnimations and obj == selectedObj then
-            if currFrame ~= lastFrame then
-                currFrameCount = currFrameCount + 1
-                -- account for Turbo in the most crackhead way possible
-                if (currFrame - lastFrame) &gt; 1 then
-                    currFrameCount = currFrameCount - (currFrame - lastFrame)
-                end
-                lastFrame = currFrame
-            end
             if lastObj == nil or
-            spriteNo ~= lastSprite or
+            selectedObj[SPRITE_NO] ~= lastObj[SPRITE_NO] or
             not table_eq(selectedObj[HITBOX_PUSH], lastObj[HITBOX_PUSH]) or
             not table_eq(selectedObj[HITBOX_ATTACK], lastObj[HITBOX_ATTACK]) or
             not table_eq(selectedObj[HITBOX_VULNERABILITY], lastObj[HITBOX_VULNERABILITY]) then
-                lastClsn2 = convert_to_air(lastObj, HITBOX_VULNERABILITY)
-                lastClsn1 = convert_to_air(lastObj, HITBOX_ATTACK)
-                lastClsn0 = convert_to_air(lastObj, HITBOX_PUSH)
+                if lastObj ~= nil then
+                    local lastClsn2 = convert_to_air(lastObj, HITBOX_VULNERABILITY)
+                    local lastClsn1 = convert_to_air(lastObj, HITBOX_ATTACK)
+                    local lastClsn0 = convert_to_air(lastObj, HITBOX_PUSH)
+                    local lastSprite = lastObj[SPRITE_NO]
+                    local lastFrameCount = lastObj[FRAME_COUNT]
 
-                if currFrameCount &gt; 0 then
-                    -- Print the current hitboxes.
-                    if lastClsn1 == "" then
-                        logFile:write(lastClsn2 .. "\n")
-                    else
-                        logFile:write(lastClsn2 .. "\n" .. lastClsn1 .. "\n")
+                    if lastFrameCount and lastFrameCount &gt; 0 then
+                        -- Print the current hitboxes.
+                        if lastClsn1 == "" then
+                            logFile:write(lastClsn2 .. "\n")
+                        else
+                            logFile:write(lastClsn2 .. "\n" .. lastClsn1 .. "\n")
+                        end
+
+                        -- Print the current spriteNo and timing
+                        logFile:write(string.format("0,%d, 0,0, %d\n", lastSprite, lastFrameCount))
                     end
-
-                    -- Print the current spriteNo and timing
-                    logFile:write(string.format("0,%d, 0,0, %d\n", lastSprite, currFrameCount))
                 end
 
                 -- Reset the data
                 lastObj = deepcopy(selectedObj)
-                lastSprite = spriteNo
 
                 -- Reset the frame count.
-                currFrameCount = 1
+                selectedObj[FRAME_COUNT] = 1
             end
         end
     end
@@ -3427,7 +3465,12 @@ function convert_to_air(obj, type)
                     if cfjMode then
                         coords = string.format("%d,%d,%d,%d", tointeger((box.left*5)/6), box.top, tointeger((box.right*5)/6), box.bottom)
                     else
-                        coords = string.format("%d,%d,%d,%d", tointeger((box.left*160)/179), box.top, tointeger((box.right*160)/179), box.bottom)
+                        local doXScale = (readByte(game.base + obj.addr + game.scaleX)&amp;1) == 1
+                        if doXScale then
+                            coords = string.format("%d,%d,%d,%d", tointeger((box.left*160.0*6.0)/(179.0*5.0) + (box.left &lt;= 0 and -1 or 1)), box.top, tointeger((box.right*160.0*6.0)/(179.0*5.0) + (box.right &lt;= 0 and -1 or 1)), box.bottom)
+                        else
+                            coords = string.format("%d,%d,%d,%d", tointeger((box.left*160.0)/179.0), box.top, tointeger((box.right*160.0)/179.0), box.bottom)
+                        end
                     end
                 end
                 clsnsStr = clsnsStr .. string.format("\n  %s[%d] = ", clsnBase, boxNo) .. coords
@@ -3543,6 +3586,17 @@ function pause_unpause(sender)
     else
         writeBytes(pauseAddr, 0)
     end
+end
+
+function get_frames_drawn_60()
+    local addr = 0
+    if mode == CVS2_DC then
+        addr = game.base - 0x1A818
+    else
+        addr = 0x03926134--0x01E447A4
+    end
+    local res = readInteger(addr)
+    return res
 end
 
 -- Returns the number of frames drawn so far
@@ -3705,6 +3759,10 @@ function set_logging(sender)
         -- Close the log file if it's open.
         if logFile ~= nil then
             logFile:close()
+            logFile = nil
+        end
+        if crackHeadTimer.OnTimer ~= nil then
+            timer_onTimer(crackHeadTimer, nil)
         end
         logAnimations = false
     end
