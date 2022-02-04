@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="18">
+<CheatTable CheatEngineTableVersion="34">
   <Forms>
     <MainWindow Class="TCEForm" Encoding="Ascii85">jg)K1)m*u-r!CNbi]g}t.K77!.;^S]e,O=.K!}iM*Ll4^fzHCPWrnna!1wS:7)a@1o.;(@OuTq@%9K*Mmi0nAed,W3o_)6ACkKGrsup$EsZ=n(u]VGd+O,+8o?t.Prj=ak4dLO4X*^H0:}V4zud(BQT20j+IAxfU,}do3tx$#x798sPXuxQ2.P?C3mb[_/[4=I)dqn4T.::H?1Owd(+(BZjm!W:zL*]a}32YAZHlVX/i7xET=JGg]3#[S3LG;u6]lKXOxn[UNS,,[3fGv@[ie06Iy%bgTx7C6HFGkM^!-f53.GsYTz}D3u+hjt+Uj;J1#2D)66}(;TP;(OcY@QLAd_Sx!-JyXYQ9F@Uo$ac1C2G.pRXogeaf!*ZueF_}$uvVTJ_gHfiN7;c0W(UIu$*rdQ9F@U75Azs8=}LJr[!Wuob+MKRKNSuc^uB-l(-a+OPJI;OlMLiCS(?K^Xdg3O)jg*9.R}^llBe7P_wp1*{rA/4R#?wyOYRuC362HJeMWZz5,=a%*O0uAr/+96UlBwfXP*#GsY.%wiyhV7zaPrLrQ)Rl6j{Z!3IgNqt*LFWekUeh71ovy-D}e7}JZ17=pYqPf)ER./TB$zKOrC?wVUb,OL]TSq[}p3r=f]eq*p$BG#k+aj#DoC];gc09JHjIAnap/.C2JSHjP^XWab,R-K[q3/Hjuq;Z8h%n6)kBtxVhhTJn.Jw#q*p6Wl+C}lNH(-/DVFk7xxdWAqfg,0Tl6NZA%(^r+/Le%Wp*PoH5[zyhbhSBE5mDEP@v-%4</MainWindow>
   </Forms>
@@ -7,9 +7,7 @@
     <CheatEntry>
       <ID>24</ID>
       <Description>"Timer"</Description>
-      <LastState Value="97" Activated="1" RealAddress="04AA57E8"/>
       <ShowAsHex>1</ShowAsHex>
-      <Color>80000008</Color>
       <VariableType>Byte</VariableType>
       <Address>00746660</Address>
       <Offsets>
@@ -19,16 +17,12 @@
     <CheatEntry>
       <ID>9</ID>
       <Description>"Timer (153 max)"</Description>
-      <LastState Value="69" Activated="0" RealAddress="04AB57F8"/>
-      <Color>80000008</Color>
       <VariableType>Byte</VariableType>
       <Address>04AB57F8</Address>
       <CheatEntries>
         <CheatEntry>
           <ID>6</ID>
           <Description>"Timer Tick"</Description>
-          <LastState Value="46665" Activated="0" RealAddress="04AB57F6"/>
-          <Color>80000008</Color>
           <VariableType>2 Bytes</VariableType>
           <Address>04AB57F6</Address>
         </CheatEntry>
@@ -38,15 +32,12 @@
       <ID>15</ID>
       <Description>"P1"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" Activated="0" RealAddress="00000000"/>
-      <Color>80000008</Color>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>10</ID>
           <Description>"P1 Life"</Description>
-          <LastState Value="144" Activated="0" RealAddress="04AA516F"/>
-          <Color>80000008</Color>
           <VariableType>Byte</VariableType>
           <Address>0074E6D0</Address>
           <Offsets>
@@ -56,8 +47,6 @@
             <CheatEntry>
               <ID>11</ID>
               <Description>"P1 Life Recover"</Description>
-              <LastState Value="144" Activated="0" RealAddress="04AB0ACB"/>
-              <Color>80000008</Color>
               <VariableType>Byte</VariableType>
               <Address>00746660</Address>
               <Offsets>
@@ -67,10 +56,18 @@
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
+          <ID>37</ID>
+          <Description>"P1 Power"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>00746660</Address>
+          <Offsets>
+            <Offset>FF4194</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
           <ID>13</ID>
           <Description>"P1 Vel X"</Description>
-          <LastState Value="0" Activated="0" RealAddress="04AA4FF3"/>
-          <Color>80000008</Color>
           <VariableType>2 Bytes</VariableType>
           <Address>00746660</Address>
           <Offsets>
@@ -80,8 +77,6 @@
         <CheatEntry>
           <ID>14</ID>
           <Description>"P1 Vel X Flt"</Description>
-          <LastState Value="0" Activated="0" RealAddress="04AA4FF5"/>
-          <Color>80000008</Color>
           <VariableType>2 Bytes</VariableType>
           <Address>00746660</Address>
           <Offsets>
@@ -91,8 +86,6 @@
         <CheatEntry>
           <ID>20</ID>
           <Description>"P1 Vel Y"</Description>
-          <LastState Value="65535" Activated="0" RealAddress="04AA4FFB"/>
-          <Color>80000008</Color>
           <VariableType>2 Bytes</VariableType>
           <Address>00746660</Address>
           <Offsets>
@@ -102,8 +95,6 @@
         <CheatEntry>
           <ID>21</ID>
           <Description>"P1 Vel Y Flt."</Description>
-          <LastState Value="8192" Activated="0" RealAddress="04AA4FFD"/>
-          <Color>80000008</Color>
           <VariableType>4 Bytes</VariableType>
           <Address>00746660</Address>
           <Offsets>
@@ -113,8 +104,6 @@
         <CheatEntry>
           <ID>19</ID>
           <Description>"P1 Pos X"</Description>
-          <LastState Value="741" Activated="0" RealAddress="04AA4FEB"/>
-          <Color>80000008</Color>
           <VariableType>2 Bytes</VariableType>
           <Address>0074E6D0</Address>
           <Offsets>
@@ -124,8 +113,6 @@
         <CheatEntry>
           <ID>18</ID>
           <Description>"P1 Pos X Flt."</Description>
-          <LastState Value="16384" Activated="0" RealAddress="04AA4FED"/>
-          <Color>80000008</Color>
           <VariableType>2 Bytes</VariableType>
           <Address>0074E6D0</Address>
           <Offsets>
@@ -135,8 +122,6 @@
         <CheatEntry>
           <ID>17</ID>
           <Description>"P1 Pos Y"</Description>
-          <LastState Value="121" Activated="0" RealAddress="04AA4FEF"/>
-          <Color>80000008</Color>
           <VariableType>Byte</VariableType>
           <Address>0074E6D0</Address>
           <Offsets>
@@ -146,13 +131,21 @@
         <CheatEntry>
           <ID>16</ID>
           <Description>"P1 Pos Y Flt."</Description>
-          <LastState Value="20480" Activated="0" RealAddress="04AA4FF1"/>
-          <Color>80000008</Color>
           <VariableType>2 Bytes</VariableType>
           <Address>0074E6D0</Address>
           <Offsets>
             <Offset>FF4012</Offset>
           </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>33</ID>
+          <Description>"P1 Button Hold"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>9</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>006C8B58</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
@@ -160,15 +153,12 @@
       <ID>23</ID>
       <Description>"P2"</Description>
       <Options moHideChildren="1"/>
-      <LastState Value="" Activated="1" RealAddress="00000000"/>
-      <Color>80000008</Color>
+      <LastState Value="" RealAddress="00000000"/>
       <GroupHeader>1</GroupHeader>
       <CheatEntries>
         <CheatEntry>
           <ID>7</ID>
           <Description>"P2 Life"</Description>
-          <LastState Value="144" Activated="1" RealAddress="04AA556F"/>
-          <Color>80000008</Color>
           <VariableType>Byte</VariableType>
           <Address>0074E6D0</Address>
           <Offsets>
@@ -178,8 +168,6 @@
             <CheatEntry>
               <ID>8</ID>
               <Description>"P2 Life Recover"</Description>
-              <LastState Value="144" Activated="0" RealAddress="04AB0AFB"/>
-              <Color>80000008</Color>
               <VariableType>Byte</VariableType>
               <Address>0074E6D0</Address>
               <Offsets>
@@ -189,30 +177,47 @@
           </CheatEntries>
         </CheatEntry>
         <CheatEntry>
+          <ID>28</ID>
+          <Description>"P2 Power"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Byte</VariableType>
+          <Address>07C7FEBD</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>29</ID>
+          <Description>"P2 Power (for REAL) (143 max)"</Description>
+          <VariableType>Byte</VariableType>
+          <Address>07C7492B</Address>
+        </CheatEntry>
+        <CheatEntry>
           <ID>22</ID>
           <Description>"P2 Vel X"</Description>
-          <LastState Value="231" Activated="0" RealAddress="04AB5403"/>
-          <Color>80000008</Color>
           <VariableType>Byte</VariableType>
           <Address>04AB5403</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>34</ID>
+          <Description>"P2 Button Hold"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>Binary</VariableType>
+          <BitStart>4</BitStart>
+          <BitLength>9</BitLength>
+          <ShowAsBinary>0</ShowAsBinary>
+          <Address>006C8B5A</Address>
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>25</ID>
       <Description>"emuBase"</Description>
-      <LastState Value="03AB0FDF" Activated="0" RealAddress="00746660"/>
       <ShowAsHex>1</ShowAsHex>
-      <Color>80000008</Color>
       <VariableType>4 Bytes</VariableType>
       <Address>00746660</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>26</ID>
       <Description>"No description"</Description>
-      <LastState Value="14B214B2" Activated="0" RealAddress="03AB0FDF"/>
       <ShowAsHex>1</ShowAsHex>
-      <Color>80000008</Color>
       <VariableType>4 Bytes</VariableType>
       <Address>00746660</Address>
       <Offsets>
@@ -222,17 +227,34 @@
     <CheatEntry>
       <ID>27</ID>
       <Description>"Kawaks Selected Game"</Description>
-      <LastState Activated="0" RealAddress="0055AD74"/>
-      <Color>80000008</Color>
       <VariableType>String</VariableType>
       <Length>255</Length>
       <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
       <Address>006C97D8</Address>
       <Offsets>
         <Offset>0</Offset>
         <Offset>0</Offset>
       </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>31</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Binary</VariableType>
+      <BitStart>0</BitStart>
+      <BitLength>6</BitLength>
+      <ShowAsBinary>0</ShowAsBinary>
+      <Address>0063B1CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>32</ID>
+      <Description>"Input Array"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>8 Bytes</VariableType>
+      <Address>006C8B58</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
@@ -273,23 +295,25 @@ boxBase = {
     kawaks = 0x0074E700,    -- Kawaks 1.62
 }
 game = {
-    numProj    = 32,
-    hbTable    = 0x90,
-    hbStart    = 0x74,
-    projStart  = 0xFFE400,
-    projOffset = 0x148,
-    offset     = 0x00,
-    base       = 0x00,
-    shift      = 0x03,
-    anim       = 0x00,
-    posX       = 0x0C,
-    posXFlt    = 0x0E,
-    posY       = 0x10,
-    posYFlt    = 0x12,
-    velX       = 0x14,
-    velXFlt    = 0x16,
-    velY       = 0x1C,
-    velYFlt    = 0x1E
+    numPlayers  = 2,
+    numProj     = 32,
+    hbTable     = 0x90,
+    hbStart     = 0x74,
+    projStart   = 0xFFE400,
+    projOffset  = 0x148,
+    offset      = 0x00,
+    playerSpace = 0x400,
+    base        = 0x00,
+    shift       = 0x03,
+    anim        = 0x00,
+    posX        = 0x0C,
+    posXFlt     = 0x0E,
+    posY        = 0x10,
+    posYFlt     = 0x12,
+    velX        = 0x14,
+    velXFlt     = 0x16,
+    velY        = 0x1C,
+    velYFlt     = 0x1E
 }
 
 -- In case user refreshes script
@@ -311,6 +335,8 @@ function check_name(sender)
         game.base = 0
         base = 0
     end
+    game.projLimit = player1.addr + game.playerSpace * game.numPlayers
+
 end
 
 -- Proj watchdog timer tick
@@ -462,13 +488,31 @@ end
 function update_data(sender)
     if getOpenedProcessID() &gt; 0 then
         local form = sender.getOwner()
+        local listbox = form.findComponentByName("ObjectListBox")
         -- Initialize the list of objects
         if not dataInitialized then
             local objList = form.findComponentByName("ObjectListBox")
             initialize_data(objList)
         else
-            -- Update the selected object's data
-            check_proj(sender)
+            -- Allocate the object list with the number of projectiles
+            for player = 1, 2 do
+                local i = 1
+                while i do
+                    print(string.format("i = %d, addr = 0x%X", i, (game.projStart + (player-1)*game.projOffset - i*4)))
+                    local obj = {name = string.format("Projectile %d (ACTIVE)", i-1),
+                                 addr = game.projStart + (player-1)*game.projOffset - i*4
+                    }
+                    if readInt32(game.base + obj.addr) &lt; game.projLimit then
+                        i = nil
+                    else
+                        objects[i+2] = obj
+                        i = i+1
+                    end
+                end
+            end
+            for k,v in spairs(objects, compare_numeric_names) do
+                listbox.items.add(objects[k]['name'])
+            end
             update_obj_data(selectedObj, form)
         end
     end
@@ -683,16 +727,6 @@ function initialize_data(listbox)
     local listItems = {}
     listbox.items.clear()
     objects = {player1, player2}
-    -- Allocate the object list with the number of projectiles
-    for i=0,game.numProj do
-        local n = "Projectile " .. i
-        objects[i+3] = {name = string.format("Projectile %d", i),
-                        addr = game.projStart+(game.projOffset*i)
-    }
-    end
-    for k,v in spairs(objects, compare_numeric_names) do
-        listbox.items.add(objects[k]['name'])
-    end
     selectedObj = objects[0]
 end
 
