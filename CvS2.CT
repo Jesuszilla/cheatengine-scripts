@@ -2669,7 +2669,7 @@
     <CheatEntry>
       <ID>519</ID>
       <Description>"60FPS Timer"</Description>
-      <LastState Value="54" RealAddress="02F16134"/>
+      <LastState Value="51" RealAddress="02F16134"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>pcsx2.exe+2C06134</Address>
@@ -2685,14 +2685,14 @@
     <CheatEntry>
       <ID>521</ID>
       <Description>"No description"</Description>
-      <LastState Value="973297" RealAddress="24013224"/>
+      <LastState Value="980014" RealAddress="24013224"/>
       <VariableType>4 Bytes</VariableType>
       <Address>24013224</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>522</ID>
       <Description>"60FPS Timer (wow64)"</Description>
-      <LastState Value="1356147791" RealAddress="7FFAA315F9E8"/>
+      <LastState Value="1357291825" RealAddress="7FFAA315F9E8"/>
       <VariableType>4 Bytes</VariableType>
       <Address>wow64.dll+4F9E8</Address>
     </CheatEntry>
@@ -3687,11 +3687,11 @@ function convert_to_air(obj, type)
                         if doXScale then
                             local left = tointeger((box.left*160.0*6.0)/(179.0*5.0))
                             local right = tointeger((box.right*160.0*6.0)/(179.0*5.0))
-                            coords = string.format("%d,%d,%d,%d", left + 1, box.top, right + 1, box.bottom)
+                            coords = string.format("%d,%d,%d,%d", left + (left ~= 0 and 1 or 0), box.top, right + (right ~= 0 and 1 or 0), box.bottom)
                         else
                             local left = tointeger(box.left*(160.0/179.0))
                             local right = tointeger(box.right*(160.0/179.0))
-                            coords = string.format("%d,%d,%d,%d", left + 2, box.top, right + 2, box.bottom)
+                            coords = string.format("%d,%d,%d,%d", left + (left ~= 0 and 2 or 0), box.top, right + (right ~= 0 and 2 or 0), box.bottom)
                         end
                     end
                 end
