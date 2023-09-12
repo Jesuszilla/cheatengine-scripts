@@ -44,6 +44,10 @@ Q: Why does it not work on my PCSX2?
 
 A: At the moment, it is only compatible with PCSX2 r5875 and 1.5.0-dev. This is because this is the version I've been using for a long time, and breakpoints change in later versions. 1.5.0-dev was chosen because it first introduced emulator-based framestepping, making one feature of the tool basically obsolete (unless you want to framestep in normal speed for whatever reason).
 
+Q: How do I view throw boxes?
+
+A: You have to perform every throw you want to see before the script starts or it won't pick them up. Also, it only places throws on the actively selected object, so you must select the correct object from the list.
+
 ## MvC2
 
 ### FAQ
