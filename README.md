@@ -45,6 +45,7 @@ Q: Why does it not work on my PCSX2?
 A: At the moment, it is only compatible with PCSX2 r5875 and 1.5.0-dev. This is because this is the version I've been using for a long time, and breakpoints change in later versions. 1.5.0-dev was chosen because it first introduced emulator-based framestepping, making one feature of the tool basically obsolete (unless you want to framestep in normal speed for whatever reason).
 
 Q: I get an error when I try to view the boxes (PCSX2).
+
 A: Set the rendering in PCSX2 to DX11 Software.
 
 Q: How do I view throw boxes?
